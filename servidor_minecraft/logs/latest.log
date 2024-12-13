@@ -1529,3 +1529,13 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 [13Dec2024 17:42:58.283] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of Baeel (18)
 [13Dec2024 17:42:58.285] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to Baeel
 [13Dec2024 17:46:23.652] [Server thread/INFO] [com.lgow.endofherobrine.entity.herobrine.AbstractHerobrine/]: LURKER spawned at BlockPos{x=70, y=78, z=16}
+[13Dec2024 17:56:03.149] [Server thread/INFO] [com.lgow.endofherobrine.entity.herobrine.AbstractHerobrine/]: LURKER spawned at BlockPos{x=28, y=78, z=-12}
+[13Dec2024 17:58:05.944] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Baeel issued server command: /time set day
+[13Dec2024 17:58:05.947] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Baeel: Set the time to 1000]
+[13Dec2024 17:58:21.851] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity arphex:moth_shadow_clone but it was marked as removed already
+[13Dec2024 17:59:59.200] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity arphex:moth_shadow_clone but it was marked as removed already
+[13Dec2024 18:02:37.653] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Baeel lost connection: Disconnected
+[13Dec2024 18:02:37.657] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client Baeel
+[13Dec2024 18:02:37.658] [Server thread/INFO] [Console/]: [§x-] Baeel Now we are 0 players.
+[13Dec2024 18:02:37.663] [Server thread/INFO] [Console/]: [-] Baeel
+[13Dec2024 18:03:02.699] [Server thread/INFO] [Console/]: Plugins (7): LuckPerms, SkinsRestorer, CustomJoinMessages, advancedChat, HuskHomes, ImageMap, Spawn
