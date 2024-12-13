@@ -1575,3 +1575,4 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 [13Dec2024 18:07:55.887] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Baeel issued server command: /time set day
 [13Dec2024 18:07:55.887] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Baeel: Set the time to 1000]
 [13Dec2024 18:09:37.548] [Server thread/INFO] [com.lgow.endofherobrine.entity.herobrine.AbstractHerobrine/]: LURKER spawned at BlockPos{x=17, y=70, z=-44}
+[13Dec2024 18:23:36.849] [Server thread/INFO] [com.lgow.endofherobrine.entity.herobrine.AbstractHerobrine/]: BUILDER spawned at BlockPos{x=53, y=78, z=-41}
