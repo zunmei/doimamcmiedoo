@@ -2642,3 +2642,48 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 [13Dec2024 18:43:52.673] [Server thread/INFO] [Console/]: [§x-] Baeel Now we are 1 players.
 [13Dec2024 18:43:52.675] [Server thread/INFO] [Console/]: [-] Baeel
 [13Dec2024 18:43:52.713] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
+[13Dec2024 18:47:11.409] [Server thread/INFO] [advancedChat/]: Reloading language files...
+[13Dec2024 18:47:11.410] [Server thread/INFO] [advancedChat/]: Successfully loaded language file: lang_en.yml
+[13Dec2024 18:47:11.410] [Server thread/INFO] [advancedChat/]: Language files reloaded successfully.
+[13Dec2024 18:47:11.434] [Server thread/INFO] [Console/]: advancedChat configuration reloaded in 28 ms
+[13Dec2024 18:47:40.306] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
+[13Dec2024 18:47:40.351] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[13Dec2024 18:47:40.351] [Server thread/INFO] [Spawn/]: Disabling Spawn v2.4.1
+[13Dec2024 18:47:40.353] [Server thread/INFO] [IM/]: Disabling ImageMap v1.0
+[13Dec2024 18:47:40.353] [Server thread/INFO] [HuskHomes/]: Disabling HuskHomes v4.8.2
+[13Dec2024 18:47:40.353] [Server thread/INFO] [HuskHomes/]: Disabling HuskHomes v4.8.2...
+[13Dec2024 18:47:40.355] [Server thread/INFO] [HuskHomes/]: Successfully disabled HuskHomes v4.8.2
+[13Dec2024 18:47:40.356] [Server thread/INFO] [advancedChat/]: Disabling advancedChat v1.0.6
+[13Dec2024 18:47:40.361] [Server thread/INFO] [advancedChat/]:  ▄▄▄       ▄████▄   ██░ ██  ▄▄▄     ▄▄▄█████▓
+[13Dec2024 18:47:40.361] [Server thread/INFO] [advancedChat/]: ▒████▄    ▒██▀ ▀█  ▓██░ ██▒▒████▄   ▓  ██▒ ▓▒
+[13Dec2024 18:47:40.361] [Server thread/INFO] [advancedChat/]: ▒██  ▀█▄  ▒▓█    ▄ ▒██▀▀██░▒██  ▀█▄ ▒ ▓██░ ▒░
+[13Dec2024 18:47:40.361] [Server thread/INFO] [advancedChat/]: ░██▄▄▄▄██ ▒▓▓▄ ▄██▒░▓█ ░██ ░██▄▄▄▄██░ ▓██▓ ░ 
+[13Dec2024 18:47:40.361] [Server thread/INFO] [advancedChat/]:  ▓█   ▓██▒▒ ▓███▀ ░░▓█▒░██▓ ▓█   ▓██▒ ▒██▒ ░ 
+[13Dec2024 18:47:40.362] [Server thread/INFO] [advancedChat/]:  ▒▒   ▓▒█░░ ░▒ ▒  ░ ▒ ░░▒░▒ ▒▒   ▓▒█░ ▒ ░░   
+[13Dec2024 18:47:40.362] [Server thread/INFO] [advancedChat/]:   ▒   ▒▒ ░░ ░░   ░ ▒░ ░ ░  ░  ▒ ░ ░  ▒░▒   ░  ▒ ░ ░ ░  ░
+[13Dec2024 18:47:40.362] [Server thread/INFO] [advancedChat/]:   ░   ▒      ░   ░ ░    ░     ░   ░   ░    ░  ▒ ░   ░   
+[13Dec2024 18:47:40.362] [Server thread/INFO] [advancedChat/]:       ░  ░         ░    ░  ░    ░     ░       ░     ░  ░
+[13Dec2024 18:47:40.362] [Server thread/INFO] [advancedChat/]: ║ Plugin has been disabled!
+[13Dec2024 18:47:40.362] [Server thread/INFO] [advancedChat/]: ║ aChat - Advanced ChatCommands Plugin | Version: 1.0.6
+[13Dec2024 18:47:40.362] [Server thread/INFO] [advancedChat/]: ║ Author: mustiffy | Discord: https://discord.gg/pgYaVNbCTE
+[13Dec2024 18:47:40.362] [Server thread/INFO] [advancedChat/]: 
+[13Dec2024 18:47:40.362] [Server thread/INFO] [CustomJoinMessages/]: Disabling CustomJoinMessages v17.6.0
+[13Dec2024 18:47:40.363] [Server thread/INFO] [SkinsRestorer/]: Disabling SkinsRestorer v15.5.0
+[13Dec2024 18:47:40.389] [Server thread/INFO] [LuckPerms/]: Disabling LuckPerms v5.4.131
+[13Dec2024 18:47:40.389] [Server thread/INFO] [LuckPerms/]: Starting shutdown process...
+[13Dec2024 18:47:40.405] [Server thread/INFO] [LuckPerms/]: Closing storage...
+[13Dec2024 18:47:40.428] [Server thread/INFO] [LuckPerms/]: Goodbye!
+[13Dec2024 18:47:40.429] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[13Dec2024 18:47:40.440] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: _Lunh lost connection: Server closed
+[13Dec2024 18:47:40.451] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: _Lunh left the game.
+[13Dec2024 18:47:40.451] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[13Dec2024 18:47:41.461] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[13Dec2024 18:47:43.869] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world/man/halucination]'/man:halucination
+[13Dec2024 18:47:43.870] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world/DIM-1]'/minecraft:the_nether
+[13Dec2024 18:47:43.870] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world/arphex/the_crawling]'/arphex:the_crawling
+[13Dec2024 18:47:43.871] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world/graveyard/past]'/graveyard:past
+[13Dec2024 18:47:43.871] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world/creraces/pocket_dimension]'/creraces:pocket_dimension
+[13Dec2024 18:47:43.872] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world/DIM1]'/minecraft:the_end
+[13Dec2024 18:47:43.894] [Server thread/INFO] [Framework/]: Unloading server configs...
+[13Dec2024 18:47:43.895] [Server thread/INFO] [Framework/]: Sending config unload event for refurbished_furniture.server.toml
+[13Dec2024 18:47:48.906] [Exit Thread/INFO] [Arclight/]: 3 threads not shutting down correctly, force exiting

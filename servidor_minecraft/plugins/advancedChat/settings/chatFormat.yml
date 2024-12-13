@@ -1,0 +1,55 @@
+ChatFormatting:
+  enabled: true
+  # Default format for groups not specified
+
+  # advancedChat Configuration
+  # Please read the https://luckperms.net/wiki/Prefixes,-Suffixes-&-Meta before you set up.
+  #
+  # Placeholders:
+  # {message} - the chat message
+  # {name} - the player's name
+  # {displayname} - the player's display name / nickname
+  # {world} - the world name of the player's current world
+  # {prefix} - the player's highest priority prefix
+  # {suffix} - the player's highest priority suffix
+  # {prefixes} - the player's prefixes sorted by the highest priority
+  # {suffixes} - the player's suffixes sorted by the highest priority
+  # {username-color} - the player's or the group's username color
+  # {message-color} - the player's or the group's message color
+  chat-format:
+    format: "&8[%vault_prefix%&8] &f{name} &8» &b{message}"
+    hover:
+      - "&aPlayer: {player-name}"
+      - "&7Click to interact!"
+    click-event:
+      - "[RUN_COMMAND] /msg {player-name} hi"
+
+  group-formats:
+    default:
+      format: "&8[{prefix}&8] &f{name} &8» &b{message}"
+      prefix: "Default"
+      username-color: ""
+      suffix: ""
+      message-color: ""
+      hover:
+        - "&aPlayer: {player-name}"
+        - "&cRank: {prefix}"
+        - "&7Click to send a message!"
+      click-event:
+        - "[SUGGEST_COMMAND] /msg {player-name}"
+      permission: "achat.group.default"
+      priority: 1
+    admin:
+      format: "{prefix} &4{name}: &b{message}"
+      prefix: ""
+      username-color:
+      suffix: ""
+      message-color:
+      hover:
+        - "&aPlayer: {player-name}"
+        - "&cRank: {prefix}"
+        - "&7Click to send a message!"
+      click-event:
+        - "[SUGGEST_COMMAND] /msg {player-name}"
+      permission: "achat.group.default"
+      priority: 1
