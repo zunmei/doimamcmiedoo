@@ -1528,3 +1528,4 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 [13Dec2024 17:42:54.184] [Server thread/INFO] [Jade/]: Syncing config to Baeel (23ae852c-c922-3caa-b42c-37a81d0fba1c)
 [13Dec2024 17:42:58.283] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of Baeel (18)
 [13Dec2024 17:42:58.285] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to Baeel
+[13Dec2024 17:46:23.652] [Server thread/INFO] [com.lgow.endofherobrine.entity.herobrine.AbstractHerobrine/]: LURKER spawned at BlockPos{x=70, y=78, z=16}
