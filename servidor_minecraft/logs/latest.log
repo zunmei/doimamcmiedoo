@@ -1539,3 +1539,39 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 [13Dec2024 18:02:37.658] [Server thread/INFO] [Console/]: [§x-] Baeel Now we are 0 players.
 [13Dec2024 18:02:37.663] [Server thread/INFO] [Console/]: [-] Baeel
 [13Dec2024 18:03:02.699] [Server thread/INFO] [Console/]: Plugins (7): LuckPerms, SkinsRestorer, CustomJoinMessages, advancedChat, HuskHomes, ImageMap, Spawn
+[13Dec2024 18:07:10.756] [User Authenticator #2/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player Baeel is 23ae852c-c922-3caa-b42c-37a81d0fba1c
+[13Dec2024 18:07:18.773] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Baeel[/127.210.151.234:38005] logged in with entity id 11613 at (66.12040557583522, 79.0, -19.369653916930954)
+[13Dec2024 18:07:18.807] [Server thread/INFO] [Console/]: [§x+] Baeel Now we are 1 players.
+[13Dec2024 18:07:18.810] [Server thread/INFO] [Console/]: [+] Baeel
+[13Dec2024 18:07:18.812] [Server thread/INFO] [net.felinamods.epicstatsmodremastered.EpicStatsModRemasteredMod/]: The attribute for stat modid:attribute doesn't exist
+[13Dec2024 18:07:18.812] [Server thread/INFO] [net.felinamods.epicstatsmodremastered.EpicStatsModRemasteredMod/]: The attribute for stat modid:attribute doesn't exist
+[13Dec2024 18:07:18.812] [Server thread/INFO] [net.felinamods.epicstatsmodremastered.EpicStatsModRemasteredMod/]: The attribute for stat aaa:aaaa doesn't exist
+[13Dec2024 18:07:18.812] [Server thread/INFO] [net.felinamods.epicstatsmodremastered.EpicStatsModRemasteredMod/]: The attribute for stat aaa:aaa2 doesn't exist
+[13Dec2024 18:07:18.812] [Server thread/INFO] [net.felinamods.epicstatsmodremastered.EpicStatsModRemasteredMod/]: The attribute for stat aw:awa doesn't exist
+[13Dec2024 18:07:18.812] [Server thread/INFO] [net.felinamods.epicstatsmodremastered.EpicStatsModRemasteredMod/]: The attribute for stat ada:aaaa doesn't exist
+[13Dec2024 18:07:18.814] [Server thread/INFO] [net.felinamods.epicstatsmodremastered.EpicStatsModRemasteredMod/]: The attribute for stat aaa:ffg doesn't exist
+[13Dec2024 18:07:18.814] [Server thread/INFO] [net.felinamods.epicstatsmodremastered.EpicStatsModRemasteredMod/]: The attribute for stat adad:aaaa doesn't exist
+[13Dec2024 18:07:18.814] [Server thread/INFO] [net.felinamods.epicstatsmodremastered.EpicStatsModRemasteredMod/]: The attribute for stat aaa:aafg doesn't exist
+[13Dec2024 18:07:18.814] [Server thread/INFO] [net.felinamods.epicstatsmodremastered.EpicStatsModRemasteredMod/]: The attribute for stat modid:attribute doesn't exist
+[13Dec2024 18:07:18.814] [Server thread/INFO] [net.felinamods.epicstatsmodremastered.EpicStatsModRemasteredMod/]: The attribute for stat modid:attribute doesn't exist
+[13Dec2024 18:07:18.814] [Server thread/INFO] [net.felinamods.epicstatsmodremastered.EpicStatsModRemasteredMod/]: The attribute for stat modid:attribute doesn't exist
+[13Dec2024 18:07:18.814] [Server thread/INFO] [net.felinamods.epicstatsmodremastered.EpicStatsModRemasteredMod/]: The attribute for stat projectile_damage:impact doesn't exist
+[13Dec2024 18:07:18.814] [Server thread/INFO] [net.felinamods.epicstatsmodremastered.EpicStatsModRemasteredMod/]: The attribute for stat aaa:ddd doesn't exist
+[13Dec2024 18:07:18.814] [Server thread/INFO] [net.felinamods.epicstatsmodremastered.EpicStatsModRemasteredMod/]: The attribute for stat aaaa:dd doesn't exist
+[13Dec2024 18:07:18.814] [Server thread/INFO] [net.felinamods.epicstatsmodremastered.EpicStatsModRemasteredMod/]: The attribute for stat modid:attribute doesn't exist
+[13Dec2024 18:07:18.814] [Server thread/INFO] [net.felinamods.epicstatsmodremastered.EpicStatsModRemasteredMod/]: The attribute for stat epicfight:staminar doesn't exist
+[13Dec2024 18:07:18.814] [Server thread/INFO] [net.felinamods.epicstatsmodremastered.EpicStatsModRemasteredMod/]: The attribute for stat aaaa:aaaa doesn't exist
+[13Dec2024 18:07:18.814] [Server thread/INFO] [net.felinamods.epicstatsmodremastered.EpicStatsModRemasteredMod/]: The attribute for stat modid:attribute doesn't exist
+[13Dec2024 18:07:18.814] [Server thread/INFO] [net.felinamods.epicstatsmodremastered.EpicStatsModRemasteredMod/]: The attribute for stat aaa:aaaas doesn't exist
+[13Dec2024 18:07:18.814] [Server thread/INFO] [net.felinamods.epicstatsmodremastered.EpicStatsModRemasteredMod/]: The attribute for stat aaa:ddd doesn't exist
+[13Dec2024 18:07:18.814] [Server thread/INFO] [net.felinamods.epicstatsmodremastered.EpicStatsModRemasteredMod/]: The attribute for stat aaa:aasssa doesn't exist
+[13Dec2024 18:07:18.834] [Server thread/INFO] [Jade/]: Syncing config to Baeel (23ae852c-c922-3caa-b42c-37a81d0fba1c)
+[13Dec2024 18:07:21.598] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of Baeel (18)
+[13Dec2024 18:07:21.598] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to Baeel
+[13Dec2024 18:07:38.766] [User Authenticator #3/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player ShirouFRG is 924c1042-eb96-30b4-8b16-790e68f4b1fa
+[13Dec2024 18:07:39.004] [Netty Epoll Server IO #4/ERROR] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channels [watut:main,caelus:main,curios:main,creraces:creraces,epic_stats_mod_remastered:epic_stats_mod_remastered,memory_of_the_past:memory_of_the_past,pehkui:main] rejected their client side version number
+[13Dec2024 18:07:39.005] [Netty Epoll Server IO #4/ERROR] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Terminating connection with client, mismatched mod list
+[13Dec2024 18:07:39.057] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@6409a0f1[id=924c1042-eb96-30b4-8b16-790e68f4b1fa,name=ShirouFRG,properties={},legacy=false] (/127.208.158.32:48197) lost connection: Connection closed - mismatched mod channel list
+[13Dec2024 18:07:55.887] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Baeel issued server command: /time set day
+[13Dec2024 18:07:55.887] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Baeel: Set the time to 1000]
+[13Dec2024 18:09:37.548] [Server thread/INFO] [com.lgow.endofherobrine.entity.herobrine.AbstractHerobrine/]: LURKER spawned at BlockPos{x=17, y=70, z=-44}
