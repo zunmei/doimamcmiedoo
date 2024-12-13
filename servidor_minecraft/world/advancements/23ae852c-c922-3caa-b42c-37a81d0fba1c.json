@@ -5095,5 +5095,101 @@
     },
     "done": true
   },
+  "sons_of_sins:lazarus_pit": {
+    "criteria": {
+      "lazarus_pit": "2024-12-13 19:16:23 +0000"
+    },
+    "done": true
+  },
+  "sons_of_sins:ash_diamond": {
+    "criteria": {
+      "ash_diamond": "2024-12-13 19:17:26 +0000"
+    },
+    "done": true
+  },
+  "creraces:played_slime": {
+    "criteria": {
+      "played_slime": "2024-12-13 19:33:09 +0000"
+    },
+    "done": true
+  },
+  "creraces:played_harpy": {
+    "criteria": {
+      "played_harpy": "2024-12-13 19:35:18 +0000"
+    },
+    "done": true
+  },
+  "creraces:played_undead": {
+    "criteria": {
+      "played_undead": "2024-12-13 19:37:10 +0000"
+    },
+    "done": true
+  },
+  "creraces:played_pixie": {
+    "criteria": {
+      "played_pixie": "2024-12-13 19:38:18 +0000"
+    },
+    "done": true
+  },
+  "creraces:played_dwarf": {
+    "criteria": {
+      "played_dwarf": "2024-12-13 19:40:52 +0000"
+    },
+    "done": true
+  },
+  "creraces:played_fairy": {
+    "criteria": {
+      "played_fairy": "2024-12-13 19:42:05 +0000"
+    },
+    "done": true
+  },
+  "creraces:played_elves": {
+    "criteria": {
+      "played_elves": "2024-12-13 19:45:13 +0000"
+    },
+    "done": true
+  },
+  "creraces:played_elf": {
+    "criteria": {
+      "played_elf": "2024-12-13 19:45:13 +0000"
+    },
+    "done": true
+  },
+  "creraces:played_nymph": {
+    "criteria": {
+      "played_nymph": "2024-12-13 19:51:04 +0000"
+    },
+    "done": true
+  },
+  "creraces:played_aurai": {
+    "criteria": {
+      "played_aurai": "2024-12-13 19:51:04 +0000"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/tame_an_animal": {
+    "criteria": {
+      "tamed_animal": "2024-12-13 19:51:13 +0000"
+    },
+    "done": true
+  },
+  "creraces:played_oread": {
+    "criteria": {
+      "played_oread": "2024-12-13 19:54:14 +0000"
+    },
+    "done": true
+  },
+  "creraces:played_dryad": {
+    "criteria": {
+      "played_dryad": "2024-12-13 19:55:55 +0000"
+    },
+    "done": true
+  },
+  "creraces:played_naiad": {
+    "criteria": {
+      "played_naiad": "2024-12-13 19:57:08 +0000"
+    },
+    "done": true
+  },
   "DataVersion": 3465
 }

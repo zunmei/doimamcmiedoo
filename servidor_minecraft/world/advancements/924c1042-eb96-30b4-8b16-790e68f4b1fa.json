@@ -4100,6 +4100,7 @@
   },
   "endofherobrine:story/exorcist": {
     "criteria": {
+      "endofherobrine:silverfish": "2024-12-13 19:26:01 +0000",
       "endofherobrine:villager": "2024-12-10 04:26:30 +0000",
       "endofherobrine:sheep": "2024-12-10 04:28:45 +0000",
       "endofherobrine:pigman": "2024-12-10 03:35:12 +0000"
@@ -4280,21 +4281,21 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/stone_bricks": {
+  "farmersdelight:main/get_fd_seed": {
     "criteria": {
-      "has_stone": "2024-12-10 05:25:10 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/blast_furnace": {
-    "criteria": {
-      "has_smooth_stone": "2024-12-10 05:26:18 +0000"
+      "tomato_seeds": "2024-12-10 05:14:49 +0000"
     },
     "done": true
   },
   "born_in_chaos_v1:big_boy": {
     "criteria": {
       "big_boy_0": "2024-12-10 05:21:50 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_bricks": {
+    "criteria": {
+      "has_stone": "2024-12-10 05:25:10 +0000"
     },
     "done": true
   },
@@ -4307,12 +4308,6 @@
   "minecraft:recipes/building_blocks/stone_slab": {
     "criteria": {
       "has_stone": "2024-12-10 05:25:10 +0000"
-    },
-    "done": true
-  },
-  "farmersdelight:main/get_fd_seed": {
-    "criteria": {
-      "tomato_seeds": "2024-12-10 05:14:49 +0000"
     },
     "done": true
   },
@@ -4346,12 +4341,6 @@
     },
     "done": true
   },
-  "undead_revamp2:defeatundeadbosses": {
-    "criteria": {
-      "defeatundeadbosses_0": "2024-12-10 05:44:27 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/stonecutter": {
     "criteria": {
       "has_stone": "2024-12-10 05:25:10 +0000"
@@ -4361,18 +4350,6 @@
   "minecraft:recipes/building_blocks/smooth_stone": {
     "criteria": {
       "has_stone": "2024-12-10 05:25:10 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/smooth_stone_slab": {
-    "criteria": {
-      "has_smooth_stone": "2024-12-10 05:26:18 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/smooth_stone_slab_from_smooth_stone_stonecutting": {
-    "criteria": {
-      "has_smooth_stone": "2024-12-10 05:26:18 +0000"
     },
     "done": true
   },
@@ -4400,12 +4377,6 @@
     },
     "done": true
   },
-  "sophisticatedbackpacks:recipes/misc/copper_backpack": {
-    "criteria": {
-      "has_backpack": "2024-12-10 05:34:33 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/chiseled_stone_bricks_stone_from_stonecutting": {
     "criteria": {
       "has_stone": "2024-12-10 05:25:10 +0000"
@@ -4424,15 +4395,165 @@
     },
     "done": true
   },
-  "undead_revamp2:mygothgf": {
+  "minecraft:recipes/decorations/blast_furnace": {
     "criteria": {
-      "mygothgf_0": "2024-12-10 05:44:27 +0000"
+      "has_smooth_stone": "2024-12-10 05:26:18 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_stone_slab": {
+    "criteria": {
+      "has_smooth_stone": "2024-12-10 05:26:18 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_stone_slab_from_smooth_stone_stonecutting": {
+    "criteria": {
+      "has_smooth_stone": "2024-12-10 05:26:18 +0000"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/misc/copper_backpack": {
+    "criteria": {
+      "has_backpack": "2024-12-10 05:34:33 +0000"
     },
     "done": true
   },
   "sophisticatedbackpacks:recipes/misc/iron_backpack": {
     "criteria": {
       "has_backpack": "2024-12-10 05:34:33 +0000"
+    },
+    "done": true
+  },
+  "undead_revamp2:defeatundeadbosses": {
+    "criteria": {
+      "defeatundeadbosses_0": "2024-12-10 05:44:27 +0000"
+    },
+    "done": true
+  },
+  "undead_revamp2:mygothgf": {
+    "criteria": {
+      "mygothgf_0": "2024-12-10 05:44:27 +0000"
+    },
+    "done": true
+  },
+  "creraces:grant_book_on_first_join": {
+    "criteria": {
+      "tick": "2024-12-13 19:00:16 +0000"
+    },
+    "done": true
+  },
+  "irons_spellbooks:grant_patchouli": {
+    "criteria": {
+      "tick": "2024-12-13 19:00:16 +0000"
+    },
+    "done": true
+  },
+  "creraces:choose_race": {
+    "criteria": {
+      "choose_race": "2024-12-13 19:00:16 +0000"
+    },
+    "done": true
+  },
+  "sons_of_sins:lazarus_pit": {
+    "criteria": {
+      "lazarus_pit": "2024-12-13 19:16:18 +0000"
+    },
+    "done": true
+  },
+  "sons_of_sins:ash_diamond": {
+    "criteria": {
+      "ash_diamond": "2024-12-13 19:17:37 +0000"
+    },
+    "done": true
+  },
+  "creraces:played_beastmen": {
+    "criteria": {
+      "played_beastmen": "2024-12-13 19:29:45 +0000"
+    },
+    "done": true
+  },
+  "creraces:played_wolfmen": {
+    "criteria": {
+      "played_wolfmen": "2024-12-13 19:29:45 +0000"
+    },
+    "done": true
+  },
+  "creraces:played_giant": {
+    "criteria": {
+      "played_giant": "2024-12-13 19:34:29 +0000"
+    },
+    "done": true
+  },
+  "creraces:played_harpy": {
+    "criteria": {
+      "played_harpy": "2024-12-13 19:37:47 +0000"
+    },
+    "done": true
+  },
+  "creraces:played_dragonborn": {
+    "criteria": {
+      "played_dragonborn": "2024-12-13 19:38:02 +0000"
+    },
+    "done": true
+  },
+  "creraces:played_elementalist": {
+    "criteria": {
+      "played_elementalist": "2024-12-13 19:38:57 +0000"
+    },
+    "done": true
+  },
+  "creraces:played_golem": {
+    "criteria": {
+      "played_golem": "2024-12-13 19:39:36 +0000"
+    },
+    "done": true
+  },
+  "creraces:played_nymph": {
+    "criteria": {
+      "played_nymph": "2024-12-13 19:41:53 +0000"
+    },
+    "done": true
+  },
+  "creraces:played_oread": {
+    "criteria": {
+      "played_oread": "2024-12-13 19:41:53 +0000"
+    },
+    "done": true
+  },
+  "creraces:played_troll": {
+    "criteria": {
+      "played_troll": "2024-12-13 19:45:12 +0000"
+    },
+    "done": true
+  },
+  "creraces:played_orc": {
+    "criteria": {
+      "played_orc": "2024-12-13 19:50:54 +0000"
+    },
+    "done": true
+  },
+  "creraces:played_ratkin": {
+    "criteria": {
+      "played_ratkin": "2024-12-13 19:51:12 +0000"
+    },
+    "done": true
+  },
+  "creraces:played_goblin": {
+    "criteria": {
+      "played_goblin": "2024-12-13 19:51:57 +0000"
+    },
+    "done": true
+  },
+  "creraces:played_undead": {
+    "criteria": {
+      "played_undead": "2024-12-13 19:52:24 +0000"
+    },
+    "done": true
+  },
+  "creraces:played_dwarf": {
+    "criteria": {
+      "played_dwarf": "2024-12-13 19:52:41 +0000"
     },
     "done": true
   },

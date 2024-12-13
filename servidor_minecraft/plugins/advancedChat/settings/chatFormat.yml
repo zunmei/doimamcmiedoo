@@ -17,7 +17,7 @@ ChatFormatting:
   # {username-color} - the player's or the group's username color
   # {message-color} - the player's or the group's message color
   chat-format:
-    format: "&8[%vault_prefix%&8] &f{name} &8» &b{message}"
+    format: "&e&lDOIMA &f{name} &e: &7{message}"
     hover:
       - "&aPlayer: {player-name}"
       - "&7Click to interact!"
@@ -26,7 +26,7 @@ ChatFormatting:
 
   group-formats:
     default:
-      format: "&8[{prefix}&8] &f{name} &8» &b{message}"
+      format: "&e&lDOIMA &f{name} &e: &7{message}"
       prefix: "Default"
       username-color: ""
       suffix: ""
@@ -40,7 +40,7 @@ ChatFormatting:
       permission: "achat.group.default"
       priority: 1
     admin:
-      format: "{prefix} &4{name}: &b{message}"
+      format: "&e&lDOIMA &f{name} &e: &7{message}"
       prefix: ""
       username-color:
       suffix: ""

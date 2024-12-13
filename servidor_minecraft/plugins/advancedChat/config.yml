@@ -4,7 +4,7 @@ update-checker: true
 # Anti-Caps feature settings.
 # If true, messages with excessive capital letters will be modified or blocked.
 AntiCaps:
-  enabled: true # Whether the anti-caps feature is enabled
+  enabled: false # Whether the anti-caps feature is enabled
   MaxCapsNumber: 3 # Maximum number of capitalized words allowed before being warned
   Alphabet: '[^A-Za-z]' # Regex pattern for cleaning the message (non-alphabetic characters)
   Punishment:
@@ -15,13 +15,13 @@ AntiCaps:
 
 # Anti-Spam settings
 Spam-System:
-  enabled: true # Enable anti-spam system
+  enabled: false # Enable anti-spam system
   cooldown: 1 # Cooldown time between messages (in seconds)
   ops_bypass_anti_spam: true # Set to 'true' if OPs should bypass spam check
 
 # Configuration for Staff Chat functionality
 Staff_Chat:
-  Enabled: true # Determines if staff chat is enabled
+  Enabled: false # Determines if staff chat is enabled
   Boss_Bar: # BossBar Settings
     Enabled: true # Determines whether BossBar is enabled
     Title: Staff Chat # BossBar title
@@ -41,7 +41,7 @@ Command_Spy:
 
 # Verify System
 VerifyChat:
-  enabled: true
+  enabled: false
   number-range: 1-30
   transactions: +, -, *, /
   cooldown-time: 10
