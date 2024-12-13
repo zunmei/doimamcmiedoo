@@ -1,4 +1,3 @@
-
 language: en
 update-checker: true
 
@@ -25,9 +24,9 @@ Staff_Chat:
   Enabled: true # Determines if staff chat is enabled
   Boss_Bar: # BossBar Settings
     Enabled: true # Determines whether BossBar is enabled
-    Title: "Staff Chat" # BossBar title
-    Color: "#0000FF" # BossBar color (in Hex format)
-    Style: "SEGMENTED_6" # BossBar style
+    Title: Staff Chat # BossBar title
+    Color: '#0000FF' # BossBar color (in Hex format)
+    Style: SEGMENTED_6 # BossBar style
 
 # Configuration for Command Spy functionality
 Command_Spy:
@@ -37,8 +36,8 @@ Command_Spy:
   Show_Staffs: true
   # Commands that won't be shown in command spy.
   Blacklist_Commands:
-    - "/login"
-    - "/register"
+  - /login
+  - /register
 
 # Verify System
 VerifyChat:
@@ -72,24 +71,28 @@ AnnouncementSounds:
 
 # Template for announcement broadcast command
 broadcastTemplate:
-  - ''
-  - '&3&l❝ &#08ACFB&lᴀ&#17B2FB&lᴅ&#26B9FB&lᴠ&#35BFFC&lᴀ&#44C6FC&lɴ&#53CCFC&lᴄ&#62D3FC&lᴇ&#71D9FC&lᴅ&#80E0FC&lᴄ&#8FE6FD&lʜ&#9EEDFD&lᴀ&#ADF3FD&lᴛ &3&l❞'
-  - ''
-  - '&bAnnouncement: &a%message%'
-  - ''
+- ''
+- '&3&l❝ &#08ACFB&lᴀ&#17B2FB&lᴅ&#26B9FB&lᴠ&#35BFFC&lᴀ&#44C6FC&lɴ&#53CCFC&lᴄ&#62D3FC&lᴇ&#71D9FC&lᴅ&#80E0FC&lᴄ&#8FE6FD&lʜ&#9EEDFD&lᴀ&#ADF3FD&lᴛ
+  &3&l❞'
+- ''
+- '&bAnnouncement: &a%message%'
+- ''
 
 dnd_modes:
-  dnd_mode_on: '&#08ACFB&lᴀ&#17B2FB&lᴅ&#26B9FB&lᴠ&#35BFFC&lᴀ&#44C6FC&lɴ&#53CCFC&lᴄ&#62D3FC&lᴇ&#71D9FC&lᴅ&#80E0FC&lᴄ&#8FE6FD&lʜ&#9EEDFD&lᴀ&#ADF3FD&lᴛ &8» &c#ff3333Do Not Disturb mode is now on. You will not receive notifications.'
-  dnd_mode_off: '&#08ACFB&lᴀ&#17B2FB&lᴅ&#26B9FB&lᴠ&#35BFFC&lᴀ&#44C6FC&lɴ&#53CCFC&lᴄ&#62D3FC&lᴇ&#71D9FC&lᴅ&#80E0FC&lᴄ&#8FE6FD&lʜ&#9EEDFD&lᴀ&#ADF3FD&lᴛ &8» &a#33cc33Do Not Disturb mode is now off. You will receive notifications.'
+  dnd_mode_on: '&#08ACFB&lᴀ&#17B2FB&lᴅ&#26B9FB&lᴠ&#35BFFC&lᴀ&#44C6FC&lɴ&#53CCFC&lᴄ&#62D3FC&lᴇ&#71D9FC&lᴅ&#80E0FC&lᴄ&#8FE6FD&lʜ&#9EEDFD&lᴀ&#ADF3FD&lᴛ
+    &8» &c#ff3333Do Not Disturb mode is now on. You will not receive notifications.'
+  dnd_mode_off: '&#08ACFB&lᴀ&#17B2FB&lᴅ&#26B9FB&lᴠ&#35BFFC&lᴀ&#44C6FC&lɴ&#53CCFC&lᴄ&#62D3FC&lᴇ&#71D9FC&lᴅ&#80E0FC&lᴄ&#8FE6FD&lʜ&#9EEDFD&lᴀ&#ADF3FD&lᴛ
+    &8» &a#33cc33Do Not Disturb mode is now off. You will receive notifications.'
   allow_mentions: true
   msg: true
   sound: true
   toggle_sound: ENTITY_EXPERIENCE_ORB_PICKUP
   title: true
   subtitle: true
-  sender_message: '&#08ACFB&lᴀ&#17B2FB&lᴅ&#26B9FB&lᴠ&#35BFFC&lᴀ&#44C6FC&lɴ&#53CCFC&lᴄ&#62D3FC&lᴇ&#71D9FC&lᴅ&#80E0FC&lᴄ&#8FE6FD&lʜ&#9EEDFD&lᴀ&#ADF3FD&lᴛ &8» &c#ff3333Player %player% is in Do Not Disturb mode and cannot be
-    mentioned.'
-  mentioned_message: '&#08ACFB&lᴀ&#17B2FB&lᴅ&#26B9FB&lᴠ&#35BFFC&lᴀ&#44C6FC&lɴ&#53CCFC&lᴄ&#62D3FC&lᴇ&#71D9FC&lᴅ&#80E0FC&lᴄ&#8FE6FD&lʜ&#9EEDFD&lᴀ&#ADF3FD&lᴛ &8» &7#cccccc%player% mentioned you, but you are in Do Not Disturb
-    mode.'
+  sender_message: '&#08ACFB&lᴀ&#17B2FB&lᴅ&#26B9FB&lᴠ&#35BFFC&lᴀ&#44C6FC&lɴ&#53CCFC&lᴄ&#62D3FC&lᴇ&#71D9FC&lᴅ&#80E0FC&lᴄ&#8FE6FD&lʜ&#9EEDFD&lᴀ&#ADF3FD&lᴛ
+    &8» &c#ff3333Player %player% is in Do Not Disturb mode and cannot be mentioned.'
+  mentioned_message: '&#08ACFB&lᴀ&#17B2FB&lᴅ&#26B9FB&lᴠ&#35BFFC&lᴀ&#44C6FC&lɴ&#53CCFC&lᴄ&#62D3FC&lᴇ&#71D9FC&lᴅ&#80E0FC&lᴄ&#8FE6FD&lʜ&#9EEDFD&lᴀ&#ADF3FD&lᴛ
+    &8» &7#cccccc%player% mentioned you, but you are in Do Not Disturb mode.'
   dnd_mode_on_icon: '&c#ff3333⛔ Do Not Disturb'
   dnd_mode_off_icon: '&a#33cc33⬤ Online'
+alias_commands: {}

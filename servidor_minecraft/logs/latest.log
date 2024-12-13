@@ -1576,3 +1576,45 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 [13Dec2024 18:07:55.887] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Baeel: Set the time to 1000]
 [13Dec2024 18:09:37.548] [Server thread/INFO] [com.lgow.endofherobrine.entity.herobrine.AbstractHerobrine/]: LURKER spawned at BlockPos{x=17, y=70, z=-44}
 [13Dec2024 18:23:36.849] [Server thread/INFO] [com.lgow.endofherobrine.entity.herobrine.AbstractHerobrine/]: BUILDER spawned at BlockPos{x=53, y=78, z=-41}
+[13Dec2024 18:25:14.562] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Baeel issued server command: /time set day
+[13Dec2024 18:25:14.563] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Baeel: Set the time to 1000]
+[13Dec2024 18:25:17.722] [User Authenticator #4/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player _Lunh is 329bf97d-af05-3d95-bf16-16112e499bd8
+[13Dec2024 18:25:19.989] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: _Lunh[/127.21.18.5:45031] logged in with entity id 30438 at (-2670.7368614026514, 46.5625, 1295.335159062492)
+[13Dec2024 18:25:20.014] [Server thread/INFO] [Console/]: [§x+] _Lunh Now we are 2 players.
+[13Dec2024 18:25:20.016] [Server thread/INFO] [Console/]: [+] _Lunh
+[13Dec2024 18:25:20.017] [Server thread/INFO] [net.felinamods.epicstatsmodremastered.EpicStatsModRemasteredMod/]: The attribute for stat modid:attribute doesn't exist
+[13Dec2024 18:25:20.017] [Server thread/INFO] [net.felinamods.epicstatsmodremastered.EpicStatsModRemasteredMod/]: The attribute for stat modid:attribute doesn't exist
+[13Dec2024 18:25:20.017] [Server thread/INFO] [net.felinamods.epicstatsmodremastered.EpicStatsModRemasteredMod/]: The attribute for stat aaa:aaaa doesn't exist
+[13Dec2024 18:25:20.017] [Server thread/INFO] [net.felinamods.epicstatsmodremastered.EpicStatsModRemasteredMod/]: The attribute for stat aaa:aaa2 doesn't exist
+[13Dec2024 18:25:20.017] [Server thread/INFO] [net.felinamods.epicstatsmodremastered.EpicStatsModRemasteredMod/]: The attribute for stat aw:awa doesn't exist
+[13Dec2024 18:25:20.017] [Server thread/INFO] [net.felinamods.epicstatsmodremastered.EpicStatsModRemasteredMod/]: The attribute for stat ada:aaaa doesn't exist
+[13Dec2024 18:25:20.017] [Server thread/INFO] [net.felinamods.epicstatsmodremastered.EpicStatsModRemasteredMod/]: The attribute for stat aaa:ffg doesn't exist
+[13Dec2024 18:25:20.017] [Server thread/INFO] [net.felinamods.epicstatsmodremastered.EpicStatsModRemasteredMod/]: The attribute for stat adad:aaaa doesn't exist
+[13Dec2024 18:25:20.017] [Server thread/INFO] [net.felinamods.epicstatsmodremastered.EpicStatsModRemasteredMod/]: The attribute for stat aaa:aafg doesn't exist
+[13Dec2024 18:25:20.018] [Server thread/INFO] [net.felinamods.epicstatsmodremastered.EpicStatsModRemasteredMod/]: The attribute for stat modid:attribute doesn't exist
+[13Dec2024 18:25:20.018] [Server thread/INFO] [net.felinamods.epicstatsmodremastered.EpicStatsModRemasteredMod/]: The attribute for stat modid:attribute doesn't exist
+[13Dec2024 18:25:20.018] [Server thread/INFO] [net.felinamods.epicstatsmodremastered.EpicStatsModRemasteredMod/]: The attribute for stat modid:attribute doesn't exist
+[13Dec2024 18:25:20.018] [Server thread/INFO] [net.felinamods.epicstatsmodremastered.EpicStatsModRemasteredMod/]: The attribute for stat projectile_damage:impact doesn't exist
+[13Dec2024 18:25:20.018] [Server thread/INFO] [net.felinamods.epicstatsmodremastered.EpicStatsModRemasteredMod/]: The attribute for stat aaa:ddd doesn't exist
+[13Dec2024 18:25:20.018] [Server thread/INFO] [net.felinamods.epicstatsmodremastered.EpicStatsModRemasteredMod/]: The attribute for stat aaaa:dd doesn't exist
+[13Dec2024 18:25:20.018] [Server thread/INFO] [net.felinamods.epicstatsmodremastered.EpicStatsModRemasteredMod/]: The attribute for stat modid:attribute doesn't exist
+[13Dec2024 18:25:20.018] [Server thread/INFO] [net.felinamods.epicstatsmodremastered.EpicStatsModRemasteredMod/]: The attribute for stat epicfight:staminar doesn't exist
+[13Dec2024 18:25:20.018] [Server thread/INFO] [net.felinamods.epicstatsmodremastered.EpicStatsModRemasteredMod/]: The attribute for stat aaaa:aaaa doesn't exist
+[13Dec2024 18:25:20.018] [Server thread/INFO] [net.felinamods.epicstatsmodremastered.EpicStatsModRemasteredMod/]: The attribute for stat modid:attribute doesn't exist
+[13Dec2024 18:25:20.018] [Server thread/INFO] [net.felinamods.epicstatsmodremastered.EpicStatsModRemasteredMod/]: The attribute for stat aaa:aaaas doesn't exist
+[13Dec2024 18:25:20.018] [Server thread/INFO] [net.felinamods.epicstatsmodremastered.EpicStatsModRemasteredMod/]: The attribute for stat aaa:ddd doesn't exist
+[13Dec2024 18:25:20.018] [Server thread/INFO] [net.felinamods.epicstatsmodremastered.EpicStatsModRemasteredMod/]: The attribute for stat aaa:aasssa doesn't exist
+[13Dec2024 18:25:20.030] [Server thread/INFO] [Jade/]: Syncing config to _Lunh (329bf97d-af05-3d95-bf16-16112e499bd8)
+[13Dec2024 18:25:22.300] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of _Lunh (18)
+[13Dec2024 18:25:22.300] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to _Lunh
+[13Dec2024 18:27:25.246] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Baeel issued server command: /achat
+[13Dec2024 18:27:28.663] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Baeel issued server command: /achat reload
+[13Dec2024 18:27:28.666] [Server thread/INFO] [advancedChat/]: Reloading language files...
+[13Dec2024 18:27:28.667] [Server thread/INFO] [advancedChat/]: Successfully loaded language file: lang_en.yml
+[13Dec2024 18:27:28.667] [Server thread/INFO] [advancedChat/]: Language files reloaded successfully.
+[13Dec2024 18:32:42.799] [Server thread/INFO] [com.lgow.endofherobrine.entity.herobrine.AbstractHerobrine/]: LURKER spawned at BlockPos{x=69, y=79, z=-43}
+[13Dec2024 18:33:06.666] [Worker-Main-62/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[13Dec2024 18:33:06.666] [Worker-Main-62/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[13Dec2024 18:33:06.666] [Worker-Main-62/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[13Dec2024 18:33:06.667] [Worker-Main-62/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[13Dec2024 18:33:09.048] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3199ms or 63 ticks behind
