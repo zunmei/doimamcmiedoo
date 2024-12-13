@@ -1,0 +1,21 @@
+
+[Slime]
+	#Allow the Slime? (True)
+	SlimeAllow = true
+	#Slime A1 cooldown (720.0)
+	SlimeA1 = 720.0
+	#Slime A2 cooldown (660.0)
+	SlimeA2 = 660.0
+	#Slime A3 cooldown (0.0)
+	SlimeA3 = 0.0
+	#Slime A4 cooldown (0.0)
+	SlimeA4 = 0.0
+	#Slime Passive cooldown (0.0)
+	SlimePassive = 0.0
+	#Slime HP Modifier (-10.0)
+	SlimeHP = -10.0
+	#Slime Height Modifier (0.0)
+	SlimeHeight = 0.0
+	#Slime Width Modifier (0.0)
+	SlimeWidth = 0.0
+

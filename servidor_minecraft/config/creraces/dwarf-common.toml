@@ -1,0 +1,21 @@
+
+[Dwarf]
+	#Allow the Dwarf? (True)
+	DwarfAllow = true
+	#Dwarf A1 cooldown (820.0)
+	DwarfA1 = 820.0
+	#Dwarf A2 cooldown (0.0)
+	DwarfA2 = 0.0
+	#Dwarf A3 cooldown (0.0)
+	DwarfA3 = 0.0
+	#Dwarf A4 cooldown (0.0)
+	DwarfA4 = 0.0
+	#Dwarf Passive cooldown (80.0)
+	DwarfPassive = 80.0
+	#Dwarf HP Modifier (0.0)
+	DwarfHP = 0.0
+	#Dwarf Height Modifier (-0.14)
+	DwarfHeight = -0.14
+	#Dwarf Width Modifier (-0.14)
+	DwarfWidth = -0.14
+

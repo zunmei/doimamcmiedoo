@@ -1,0 +1,32 @@
+
+[Wolfman]
+	#Allow the Wolfman? (True)
+	WolfmanAllow = true
+	#Wolfman A1 cooldown (380.0)
+	WolfmanA1 = 380.0
+	#Wolfman A2 cooldown (140.0)
+	WolfmanA2 = 140.0
+	#Wolfman A3 cooldown (0.0)
+	WolfmanA3 = 0.0
+	#Wolfman A4 cooldown (0.0)
+	WolfmanA4 = 0.0
+	#Wolfman Passive cooldown (0.0)
+	WolfmanPassive = 0.0
+	#Wolfman HP Modifier (0.0)
+	WolfmanHP = 0.0
+	#Wolfman Height Modifier (0.0)
+	WolfmanHeight = 0.0
+	#Wolfman Width Modifier (0.0)
+	WolfmanWidth = 0.0
+	#Wolfman Stack Limit (256.0)
+	WolfmanStackLimit = 256.0
+
+["Beastmen 2"]
+	test765 = true
+
+["Beastmen 3"]
+	test867 = true
+
+["Beastmen 4"]
+	test361 = true
+

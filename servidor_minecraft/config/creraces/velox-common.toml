@@ -1,0 +1,21 @@
+
+[Velox]
+	#Allow the Velox? (True)
+	VeloxAllow = true
+	#Velox A1 cooldown (100.0)
+	VeloxA1 = 100.0
+	#Velox A2 cooldown (80.0)
+	VeloxA2 = 80.0
+	#Velox A3 cooldown (0.0)
+	VeloxA3 = 0.0
+	#Velox A4 cooldown (0.0)
+	VeloxA4 = 0.0
+	#Velox Passive cooldown (12.0)
+	VeloxPassive = 12.0
+	#Velox HP Modifier (0.0)
+	VeloxHP = 0.0
+	#Velox Height Modifier (0.1)
+	VeloxHeight = 0.1
+	#Velox Width Modifier (0.0)
+	VeloxWidth = 0.0
+

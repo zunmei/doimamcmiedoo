@@ -1,0 +1,27 @@
+
+[Undead]
+	#Allow the Undead? (True)
+	UndeadAllow = true
+	#Undead A1 cooldown (420.0)
+	UndeadA1 = 420.0
+	#Undead A2 cooldown (420.0)
+	UndeadA2 = 420.0
+	#Undead A3 cooldown (420.0)
+	UndeadA3 = 420.0
+	#Undead A4 cooldown (4200.0)
+	UndeadA4 = 2400.0
+	#Undead Passive cooldown (100.0)
+	UndeadPassive = 100.0
+	#Undead HP Modifier (0.0)
+	UndeadHP = 0.0
+	#Undead Height Modifier (0.0)
+	UndeadHeight = 0.0
+	#Undead Width Modifier (0.0)
+	UndeadWidth = 0.0
+	#Undead Summon Cap (20.0)
+	UndeadCap = 20.0
+	#Remains Decay time (1200.0)
+	RemainsDecay = 1200.0
+	#Undead Remains Cap (0.0)
+	RemainsCap = 0.0
+

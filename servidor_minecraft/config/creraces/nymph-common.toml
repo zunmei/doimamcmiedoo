@@ -1,0 +1,81 @@
+
+[Oread]
+	#Allow the Oread? (True)
+	OreadAllow = true
+	#Oread A1 cooldown (240.0)
+	OreadA1 = 240.0
+	#Oread A2 cooldown (360.0)
+	OreadA2 = 360.0
+	#Oread A3 cooldown (0.0)
+	OreadA3 = 0.0
+	#Oread A4 cooldown (100.0)
+	OreadA4 = 100.0
+	#Oread Passive cooldown (500.0)
+	OreadPassive = 500.0
+	#Oread HP Modifier (-4.0)
+	OreadHP = -4.0
+	#Oread Height Modifier (0.1)
+	OreadHeight = 0.1
+	#Oread Width Modifier (0.0)
+	OreadWidth = 0.0
+
+[Naiad]
+	#Allow the Naiad? (True)
+	NaiadAllow = true
+	#Naiad A1 cooldown (180.0)
+	NaiadA1 = 180.0
+	#Naiad A2 cooldown (240.0)
+	NaiadA2 = 240.0
+	#Naiad A3 cooldown (480.0)
+	NaiadA3 = 480.0
+	#Naiad A4 cooldown (720.0)
+	NaiadA4 = 720.0
+	#Naiad Passive cooldown (0.0)
+	NaiadPassive = 0.0
+	#Naiad HP Modifier (-4.0)
+	NaiadHP = -4.0
+	#Naiad Height Modifier (0.1)
+	NaiadHeight = 0.1
+	#Naiad Width Modifier (0.0)
+	NaiadWidth = 0.0
+
+[Dryad]
+	#Allow the Dryad? (True)
+	DryadAllow = true
+	#Dryad A1 cooldown (120.0)
+	DryadA1 = 120.0
+	#Dryad A2 cooldown (240.0)
+	DryadA2 = 240.0
+	#Dryad A3 cooldown (480.0)
+	Dryad3 = 480.0
+	#Dryad A4 cooldown (1800.0)
+	Dryad4 = 1800.0
+	#Dryad Passive cooldown (0.0)
+	DryadPassive = 0.0
+	#Dryad HP Modifier (-4.0)
+	DryadHP = -4.0
+	#Dryad Height Modifier (0.1)
+	DryadHeight = 0.1
+	#Dryad Width Modifier (0.0)
+	DryadWidth = 0.0
+
+[Aurai]
+	#Allow the Aurai? (True)
+	AuraiAllow = true
+	#Aurai A1 cooldown (120.0)
+	AuraiA1 = 120.0
+	#Aurai A2 cooldown (320.0)
+	AuraiA2 = 320.0
+	#Aurai A3 cooldown (480.0)
+	AuraiA3 = 480.0
+	#Aurai A4 cooldown (1200.0)
+	AuraiA4 = 1200.0
+	#Aurai Passive cooldown (0.0)
+	AuraiPassive = 0.0
+	#Aurai HP Modifier (-4.0)
+	AuraiHP = -4.0
+	#Aurai Height Modifier (0.1)
+	AuraiHeight = 0.1
+	#Aurai Width Modifier (0.0)
+	AuraiWidth = 0.0
+

@@ -1,0 +1,23 @@
+
+[Kitsune]
+	#Allow the Kitsune? (True)
+	KitsuneAllow = true
+	#Kitsune A1 cooldown (500.0)
+	KitsuneA1 = 500.0
+	#Kitsune A2 cooldown (60.0)
+	KitsuneA2 = 60.0
+	#Kitsune A3 cooldown (0.0)
+	KitsuneA3 = 0.0
+	#Kitsune A4 cooldown (0.0)
+	KitsuneA4 = 0.0
+	#Kitsune Passive cooldown (36000.0)
+	KitsunePassive = 36000.0
+	#Kitsune HP Modifier (-18.0)
+	KitsuneHP = -18.0
+	#Kitsune Height (0.0)
+	KitsuneHeight = 0.0
+	#Kitsune Width (0.0)
+	KitsuneWidth = 0.0
+	#Lose a tail on death?
+	LoseTail = true
+

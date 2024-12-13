@@ -1,0 +1,95 @@
+
+language: en
+update-checker: true
+
+# Anti-Caps feature settings.
+# If true, messages with excessive capital letters will be modified or blocked.
+AntiCaps:
+  enabled: true # Whether the anti-caps feature is enabled
+  MaxCapsNumber: 3 # Maximum number of capitalized words allowed before being warned
+  Alphabet: '[^A-Za-z]' # Regex pattern for cleaning the message (non-alphabetic characters)
+  Punishment:
+    enabled: true # Whether to apply punishment after a certain number of warnings
+    commands:
+      '3': ban {player} 10m # Example punishment: ban the player for 10 minutes after 3 warnings
+      '5': mute {player} 30m # Mute the player for 30 minutes after 5 warnings
+
+# Anti-Spam settings
+Spam-System:
+  enabled: true # Enable anti-spam system
+  cooldown: 1 # Cooldown time between messages (in seconds)
+  ops_bypass_anti_spam: true # Set to 'true' if OPs should bypass spam check
+
+# Configuration for Staff Chat functionality
+Staff_Chat:
+  Enabled: true # Determines if staff chat is enabled
+  Boss_Bar: # BossBar Settings
+    Enabled: true # Determines whether BossBar is enabled
+    Title: "Staff Chat" # BossBar title
+    Color: "#0000FF" # BossBar color (in Hex format)
+    Style: "SEGMENTED_6" # BossBar style
+
+# Configuration for Command Spy functionality
+Command_Spy:
+  # Turn on command spy when players with the correct permission join the server.
+  Enable_On_Join: false
+  # This setting sets whether to show when staffs use the command
+  Show_Staffs: true
+  # Commands that won't be shown in command spy.
+  Blacklist_Commands:
+    - "/login"
+    - "/register"
+
+# Verify System
+VerifyChat:
+  enabled: true
+  number-range: 1-30
+  transactions: +, -, *, /
+  cooldown-time: 10
+
+Join_Module:
+  enabled: true # if enabled join / quit system is work
+  type: Both # Actionbar, Message, Both
+
+# Anti-Long-Repeated-Chars feature settings
+# If true, messages with long repeated characters will be blocked.
+AntiLongRepeatedChars:
+  enabled: true
+  # The maximum allowed number of repeated characters in a row.
+  MaxRepeatedChars: 10
+  # Whether ops (server operators) bypass the anti-long-repeated-chars feature.
+  ops_bypass_anti_long_repeated_chars: true
+
+# Anti-Advertising settings
+AntiAdvertising:
+  enabled: true
+
+# Announcement Sounds https://helpch.at/docs/1.16.5/org/bukkit/Sound.html
+AnnouncementSounds:
+  Title: ENTITY_PLAYER_LEVELUP, 1, 1 # DO NOT LEAVE IT EMPTY
+  ActionBar: ENTITY_PLAYER_LEVELUP, 1, 1 # DO NOT LEAVE IT EMPTY
+  Broadcast: ENTITY_PLAYER_LEVELUP, 1, 1 # DO NOT LEAVE IT EMPTY
+
+# Template for announcement broadcast command
+broadcastTemplate:
+  - ''
+  - '&3&l❝ &#08ACFB&lᴀ&#17B2FB&lᴅ&#26B9FB&lᴠ&#35BFFC&lᴀ&#44C6FC&lɴ&#53CCFC&lᴄ&#62D3FC&lᴇ&#71D9FC&lᴅ&#80E0FC&lᴄ&#8FE6FD&lʜ&#9EEDFD&lᴀ&#ADF3FD&lᴛ &3&l❞'
+  - ''
+  - '&bAnnouncement: &a%message%'
+  - ''
+
+dnd_modes:
+  dnd_mode_on: '&#08ACFB&lᴀ&#17B2FB&lᴅ&#26B9FB&lᴠ&#35BFFC&lᴀ&#44C6FC&lɴ&#53CCFC&lᴄ&#62D3FC&lᴇ&#71D9FC&lᴅ&#80E0FC&lᴄ&#8FE6FD&lʜ&#9EEDFD&lᴀ&#ADF3FD&lᴛ &8» &c#ff3333Do Not Disturb mode is now on. You will not receive notifications.'
+  dnd_mode_off: '&#08ACFB&lᴀ&#17B2FB&lᴅ&#26B9FB&lᴠ&#35BFFC&lᴀ&#44C6FC&lɴ&#53CCFC&lᴄ&#62D3FC&lᴇ&#71D9FC&lᴅ&#80E0FC&lᴄ&#8FE6FD&lʜ&#9EEDFD&lᴀ&#ADF3FD&lᴛ &8» &a#33cc33Do Not Disturb mode is now off. You will receive notifications.'
+  allow_mentions: true
+  msg: true
+  sound: true
+  toggle_sound: ENTITY_EXPERIENCE_ORB_PICKUP
+  title: true
+  subtitle: true
+  sender_message: '&#08ACFB&lᴀ&#17B2FB&lᴅ&#26B9FB&lᴠ&#35BFFC&lᴀ&#44C6FC&lɴ&#53CCFC&lᴄ&#62D3FC&lᴇ&#71D9FC&lᴅ&#80E0FC&lᴄ&#8FE6FD&lʜ&#9EEDFD&lᴀ&#ADF3FD&lᴛ &8» &c#ff3333Player %player% is in Do Not Disturb mode and cannot be
+    mentioned.'
+  mentioned_message: '&#08ACFB&lᴀ&#17B2FB&lᴅ&#26B9FB&lᴠ&#35BFFC&lᴀ&#44C6FC&lɴ&#53CCFC&lᴄ&#62D3FC&lᴇ&#71D9FC&lᴅ&#80E0FC&lᴄ&#8FE6FD&lʜ&#9EEDFD&lᴀ&#ADF3FD&lᴛ &8» &7#cccccc%player% mentioned you, but you are in Do Not Disturb
+    mode.'
+  dnd_mode_on_icon: '&c#ff3333⛔ Do Not Disturb'
+  dnd_mode_off_icon: '&a#33cc33⬤ Online'

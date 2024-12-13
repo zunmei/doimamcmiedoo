@@ -1,0 +1,21 @@
+
+[Orc]
+	#Allow the Orc? (True)
+	OrcAllow = true
+	#Orc A1 cooldown (1800.0)
+	OrcA1 = 1800.0
+	#Orc A2 cooldown (520.0)
+	OrcA2 = 520.0
+	#Orc A3 cooldown (0.0)
+	OrcA3 = 0.0
+	#Orc A4 cooldown (0.0)
+	OrcA4 = 0.0
+	#Orc Passive cooldown (0.0)
+	OrcPassive = 0.0
+	#Orc HP Modifier (4.0)
+	OrcHP = 4.0
+	#Orc Height (0.0)
+	OrcHeight = 0.0
+	#Orc Width (0.0)
+	OrcWidth = 0.0
+

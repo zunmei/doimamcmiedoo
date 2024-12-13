@@ -1,0 +1,44 @@
+antiSwear:
+  isEnabled: true
+  isFakeMessagesEnabled: false
+  replaceSwears: false
+
+# List of swear words to be blocked. These words are case-insensitive.
+swear_words:
+  - aq
+  - example
+  - fk
+
+# Swear Block Message
+swear_message: "&#08ACFB&lᴀ&#17B2FB&lᴅ&#26B9FB&lᴠ&#35BFFC&lᴀ&#44C6FC&lɴ&#53CCFC&lᴄ&#62D3FC&lᴇ&#71D9FC&lᴅ&#80E0FC&lᴄ&#8FE6FD&lʜ&#9EEDFD&lᴀ&#ADF3FD&lᴛ &8» &#FF5555You can''t use swears here! Notification Sent to Our Staffs! &#343737(&#91FFFF#{warn-number}&#343737)"
+
+# Punishments
+punishment:
+  enabled: false
+  commands:
+    '1': say {player} This is your first warning for inappropriate language.
+    '2': kick {player} Please avoid using inappropriate language.
+    '3': ban {player} 1d Repeated inappropriate language use.
+
+# URL for the webhook to send notifications when a swear word is detected.
+# Leave this empty or disable webhook if you don't want to use this feature.
+webhook:
+  enabled: false
+  url: '' # Set your Discord webhook URL here
+  embed:
+    title: 'Swear Word Usage Blocked (#{warn-number})' # Only {warn-number}
+    description:
+      - '`👤` **Player:** `{player-name}` attempted to use a blocked swear word!' # Avaible Placeholders: {player-name}, {blocked-swear}, {time-stamp}, {warn-number}
+      - '`⛔` **Blocked Swear Word:** \n```{blocked-swear}```' # Avaible Placeholders: {player-name}, {blocked-swear}, {time-stamp}, {warn-number}
+      - '`⏲️` **Time:** `{time-stamp}`' # Avaible Placeholders: {player-name}, {blocked-swear}, {time-stamp}, {warn-number}
+    author: '' # No placeholders
+    authoriconurl: '' # Placeholders: {player-icon}
+    authorurl: '' # No placeholders
+    thumbnail: '{player-icon}' # Placeholders: {player-icon}
+    footer: '' # No placeholders
+    footericon: '' # Placeholders: {player-icon}
+    color: '#FF0000' # Red Color
+    fields:
+    #  - 'Field 1:Value 1:true' # Name and Value Placeholders: {player-name}, {blocked-swear}, {time-stamp}, {warn-number}
+
+total-swear-warn: 0 # DON'T TOUCH

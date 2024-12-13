@@ -1,0 +1,6 @@
+unblocked-tabcomplete:
+  - help
+  - list
+  - msg
+op-bypass: true
+enabled: false

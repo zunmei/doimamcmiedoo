@@ -1,0 +1,85 @@
+
+["CR Names"]
+	#CR1 Race Name? (CR1)
+	CR1Name = "CR1"
+	#CR2 Race Name? (CR2)
+	CR2Name = "CR2"
+	#CR3 Race Name? (CR3)
+	CR3Name = "CR3"
+	#CR4 Race Name? (CR4)
+	CR4Name = "CR4"
+	#CR5 Race Name? (CR5)
+	CR5Name = "CR5"
+	#CR6 Race Name? (CR6)
+	CR6Name = "CR6"
+	#CR6 Race Name? (CR7)
+	CR7Name = "CR7"
+	#CR6 Race Name? (CR8)
+	CR8Name = "CR8"
+	#CR6 Race Name? (CR9)
+	CR9Name = "CR9"
+
+["CR Datapacks"]
+	#CR1 Datapack ID:
+	CR1Datapack = "creraces"
+	#CR2 Datapack ID:
+	CR2Datapack = "creraces"
+	#CR3 Datapack ID:
+	CR3Datapack = "creraces"
+	#CR4 Datapack ID:
+	CR4Datapack = "creraces"
+	#CR5 Datapack ID:
+	CR5Datapack = "creraces"
+	#CR6 Datapack ID:
+	CR6Datapack = "creraces"
+	#CR7 Datapack ID:
+	CR7Datapack = "creraces"
+	#CR8 Datapack ID:
+	CR8Datapack = "creraces"
+	#CR9 Datapack ID:
+	CR9Datapack = "creraces"
+
+["CR1 Config"]
+	#Allow the CR1? (False)
+	CR1Allow = false
+	#CR1 A1 cooldown (100.0)
+	CR1A1 = 100.0
+	#CR1 A2 cooldown (100.0)
+	CR1A2 = 100.0
+	#CR1 A3 cooldown (100.0)
+	CR1A3 = 100.0
+	#CR1 A4 cooldown (100.0)
+	CR1A4 = 100.0
+	#CR1 Passive cooldown (0.0)
+	CR1Passive = 0.0
+	#Use CR1 No Fall-Damage? (False)
+	CR1NoFallDamage = false
+	#Use CR1 in-Water? (False)
+	CR1InWater = false
+	#Use CR1 on tick? (False)
+	CR1OnTick = false
+	#Use 4 Abilities on CR1? (False)
+	CR1Use4Abilities = false
+
+["CR2 Config"]
+	#Allow the CR2? (False)
+	CR2Allow = false
+	#CR2 A1 cooldown (100.0)
+	CR2A1 = 100.0
+	#CR2 A2 cooldown (100.0)
+	CR2A2 = 100.0
+	#CR2 A3 cooldown (100.0)
+	CR2A3 = 100.0
+	#CR2 A4 cooldown (100.0)
+	CR2A4 = 100.0
+	#CR2 Passive cooldown (0.0)
+	CR2Passive = 0.0
+	#CR2 No Fall-Damage? (False)
+	CR2NoFallDamage = false
+	#Use CR2 in-Water? (False)
+	CR2InWater = false
+	#Use CR2 on tick? (False)
+	CR2OnTick = false
+	#Use 4 Abilities on CR2? (False)
+	CR2Use4Abilities = false
+

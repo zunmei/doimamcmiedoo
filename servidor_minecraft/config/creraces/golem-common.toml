@@ -1,0 +1,21 @@
+
+[Golem]
+	#Allow the Golem? (True)
+	GolemAllow = true
+	#Golem A1 cooldown (2200.0)
+	GolemA1 = 2200.0
+	#Golem A2 cooldown (600.0)
+	GolemA2 = 600.0
+	#Golem A3 cooldown (0.0)
+	GolemA3 = 0.0
+	#Golem A4 cooldown (0.0)
+	GolemA4 = 0.0
+	#Golem Passive cooldown (0.0)
+	GolemPassive = 0.0
+	#Golem HP Modifier (0.0)
+	GolemHP = 0.0
+	#Golem Height Modifier (0.0)
+	GolemHeight = 0.0
+	#Golem Width Modifier (0.0)
+	GolemWidth = 0.0
+

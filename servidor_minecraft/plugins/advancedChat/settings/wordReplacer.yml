@@ -1,0 +1,11 @@
+WordReplacer:
+  enabled: true
+  Words:
+    - word: "hi"
+      Replace: "Hello"
+      Permission: "" # If empty, anyone can use it.
+      exactMatch: true  # Only replace the exact match of the word
+    - word: "example word"
+      Replace: "" # If left blank, nothing will be written instead of this word.
+      Permission: "" # If empty, anyone can use it.
+      exactMatch: true  # Only replace the exact match of the word

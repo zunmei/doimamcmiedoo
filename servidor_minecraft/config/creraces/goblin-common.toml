@@ -1,0 +1,21 @@
+
+[Goblin]
+	#Allow the Goblin? (True)
+	GoblinAllow = true
+	#Goblin A1 cooldown (520.0)
+	GoblinA1 = 520.0
+	#Goblin A2 cooldown (720.0)
+	GoblinA2 = 720.0
+	#Goblin A3 cooldown (5.0)
+	GoblinA3 = 5.0
+	#Goblin A4 cooldown (240.0)
+	GoblinA4 = 240.0
+	#Goblin Passive cooldown (0.0)
+	GoblinPassive = 0.0
+	#Goblin HP Modifier (-6.0)
+	GoblinHP = -6.0
+	#Goblin Height Modifier (-0.3)
+	GoblinHeight = -0.3
+	#Goblin Width Modifier (-0.3)
+	GoblinWidth = -0.3
+

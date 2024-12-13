@@ -1,0 +1,21 @@
+
+[Pixie]
+	#Allow the Pixie? (True)
+	PixieAllow = true
+	#Pixie A1 cooldown (520.0)
+	PixieA1 = 520.0
+	#Pixie A2 cooldown (680.0)
+	PixieA2 = 680.0
+	#Pixie A3 cooldown (1250.0)
+	PixieA3 = 1250.0
+	#Pixie A4 cooldown (360.0)
+	PixieA4 = 360.0
+	#Pixie Passive cooldown (0.0)
+	PixiePassive = 0.0
+	#Pixie HP Modifier (-14.0)
+	PixieHP = -14.0
+	#Pixie Height Modifier (-0.8)
+	PixieHeight = -0.8
+	#Pixie Width Modifier (-0.8)
+	PixieWidth = -0.8
+

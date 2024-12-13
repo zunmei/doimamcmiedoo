@@ -1,0 +1,47 @@
+block-command:
+  cooldown-enabled: true
+  cooldown: 5s
+  cooldown-message: '&#08ACFB&lᴀ&#17B2FB&lᴅ&#26B9FB&lᴠ&#35BFFC&lᴀ&#44C6FC&lɴ&#53CCFC&lᴄ&#62D3FC&lᴇ&#71D9FC&lᴅ&#80E0FC&lᴄ&#8FE6FD&lʜ&#9EEDFD&lᴀ&#ADF3FD&lᴛ &8» &#FF5555You need to wait &#91FFFF{time}
+    &#FF5555to use &#91FFFF{command}, &#78FB08Calm Down!'
+
+blocked-commands:
+  - pl
+  - plugin
+  - plugins
+  - version
+  - ver
+  - about
+  - help
+  - about
+  - bukkit:plugins
+  - bukkit:pl
+  - bukkit:plugin
+  - '?'
+  - bukkit:?
+  - anewbie
+
+block-message: '&#08ACFB&lᴀ&#17B2FB&lᴅ&#26B9FB&lᴠ&#35BFFC&lᴀ&#44C6FC&lɴ&#53CCFC&lᴄ&#62D3FC&lᴇ&#71D9FC&lᴅ&#80E0FC&lᴄ&#8FE6FD&lʜ&#9EEDFD&lᴀ&#ADF3FD&lᴛ &8» &#FF5555You cannot use this command! Notification Sent to Our Staffs! &#343737(&#91FFFF#{warn-number}&#343737)'
+send-block-message: true
+
+# URL for the webhook to send notifications when blocked command is detected.
+# Leave this empty or disable webhook if you don't want to use this feature.
+webhook:
+  enabled: false
+  url: 'YOUR_WEBHOOK_URL' # Set your Discord webhook URL here
+  embed:
+    title: 'Command Usage Blocked (#{warn-number})' # Only {warn-number}
+    description:
+      - '`👤` **Player:** `{player-name}` tried to use a blocked command.' # Avaible Placeholders: {player-name}, {blocked-command}, {time-stamp}, {warn-number}
+      - '`⛔` **Blocked Command:** \n```/{blocked-command}```' # Avaible Placeholders: {player-name}, {blocked-command}, {time-stamp}, {warn-number}
+      - '`⏲️` **Time:** `{time-stamp}`' # Avaible Placeholders: {player-name}, {blocked-command}, {time-stamp}, {warn-number}
+    author: '' # No placeholders
+    authoriconurl: '' # Placeholders: {player-icon}
+    authorurl: '' # No placeholders
+    thumbnail: '{player-icon}' # Placeholders: {player-icon}
+    footer: '' # No placeholders
+    footericon: '' # Placeholders: {player-icon}
+    color: '#FF0000' # Red Color
+    fields:
+    #  - 'Field 1:Value 1:true' # Name and Value Placeholders: {player-name}, {blocked-command}, {time-stamp}, {warn-number}
+
+total-command-usage: 0 # DON'T TOUCH

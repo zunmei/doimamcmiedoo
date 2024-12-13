@@ -1,0 +1,4 @@
+# chat_settings.yml
+chat_enabled: true # Sohbetin durumu
+antiSwearOffensesCount: 0
+antiAdvertisingOffensesCount: 0

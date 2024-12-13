@@ -1,0 +1,25 @@
+
+[Ratkin]
+	#Allow the Ratkin?
+	RatkinAllow = true
+	#Ratkin A1 cooldown (420.0)
+	RatkinA1 = 420.0
+	#Ratkin A2 cooldown (1200.0)
+	RatkinA2 = 1200.0
+	#Ratkin A3 cooldown (360.0)
+	RatkinA3 = 360.0
+	#Ratkin A4 cooldown (0.0)
+	RatkinA4 = 0.0
+	#Ratkin Passive cooldown (12.0)
+	RatkinPassive = 12.0
+	#Kitsune HP Modifier (-4.0)
+	RatkinHP = -4.0
+	#Ratkin Height Modifier (-0.35)
+	RatkinHeight = -0.35
+	#Ratkin Width Modifier (-0.35)
+	RatkinWidth = -0.35
+	#Poison Emitter duration (1200.0)
+	PoisonEmitter = 1200.0
+	#Rat Venom effect scaling (0.04)
+	RatVenom = 0.04
+

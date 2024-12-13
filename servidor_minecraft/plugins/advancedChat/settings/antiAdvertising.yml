@@ -1,0 +1,43 @@
+AntiAdvertising:
+  enabled: true
+  warning-message: '&#08ACFB&lᴀ&#17B2FB&lᴅ&#26B9FB&lᴠ&#35BFFC&lᴀ&#44C6FC&lɴ&#53CCFC&lᴄ&#62D3FC&lᴇ&#71D9FC&lᴅ&#80E0FC&lᴄ&#8FE6FD&lʜ&#9EEDFD&lᴀ&#ADF3FD&lᴛ &8» &#FF5555You can''t advertise here! Notification Sent to Our Staffs! &#343737(&#91FFFF#{warn-number}&#343737)'
+
+  ip-patterns:
+    - "\\b(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)(\\.(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)){3}\\b"
+  domain-patterns:
+    - "\\b([a-zA-Z0-9]+(-[a-zA-Z0-9]+)*\\.)+[a-zA-Z]{2,}\\b"
+    - "\\b(mc|play|server|network|bungee)\\.(net|com|org|xyz|gg|us|eu|me|info)\\b"
+  url-patterns:
+    - "\\b(?:https?|ftp|file)://[-a-zA-Z0-9+&@#/%?=~_|!:,.;]*[-a-zA-Z0-9+&@#/%=~_|]\\b"
+
+punishment:
+  enabled: false
+  commands:
+    1: "say {player} This is your first warning for inappropriate language."
+    2: "kick {player} Please avoid using inappropriate language."
+    3: "ban {player} 1d Repeated inappropriate language use."
+    4: "ban {player} 3d Persistent advertising, please refrain."
+    5: "perma-ban {player} Permanent ban for repeated advertising."
+
+# URL for the webhook to send notifications when adveristing is detected.
+# Leave this empty or disable webhook if you don't want to use this feature.
+webhook:
+  enabled: false
+  url: '' # Set your Discord webhook URL here
+  embed:
+    title: 'Ad blocked (#{warn-number})' # Only {warn-number}
+    description:
+      - '`👤` **Player:** `{player-name}` tried to send an ad' # Avaible Placeholders: {player-name}, {blocked-advertising}, {time-stamp}, {warn-number}
+      - '`⛔` **Blocked Ad:** \n```{blocked-advertising}```' # Avaible Placeholders: {player-name}, {blocked-advertising}, {time-stamp}, {warn-number}
+      - '`⏲️` **Time:** `{time-stamp}`' # Avaible Placeholders: {player-name}, {blocked-advertising}, {time-stamp}, {warn-number}
+    author: '' # No placeholders
+    authoriconurl: '' # Placeholders: {player-icon}
+    authorurl: '' # No placeholders
+    thumbnail: '{player-icon}' # Placeholders: {player-icon}
+    footer: '' # No placeholders
+    footericon: '' # Placeholders: {player-icon}
+    color: '#FF0000' # Red Color
+    fields:
+    #  - 'Field 1:Value 1:true' # Name and Value Placeholders: {player-name}, {blocked-advertising}, {time-stamp}, {warn-number}
+
+total-advertising-warn: 0 # DON'T TOUCH

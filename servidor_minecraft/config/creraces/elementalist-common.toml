@@ -1,0 +1,21 @@
+
+[Elementalist]
+	#Allow the Elementalist? (True)
+	ElementalistAllow = true
+	#Elementalist A1 cooldown (0.0)
+	ElementalistA1 = 0.0
+	#Elementalist A2 cooldown (220.0)
+	ElementalistA2 = 220.0
+	#Elementalist A3 cooldown (260.0)
+	ElementalistA3 = 260.0
+	#Elementalist A4 cooldown (260.0)
+	ElementalistA4 = 260.0
+	#Elementalist Passive cooldown (0.0)
+	ElementalistPassive = 0.0
+	#Elementalist HP Modifier (0.0)
+	ElementalistHP = 0.0
+	#Elementalist Height Modifier (0.0)
+	ElementalistHeight = 0.0
+	#Elementalist Width Modifier (0.0)
+	ElementalistWidth = 0.0
+

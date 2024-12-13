@@ -1,0 +1,163 @@
+# Prefix for {prefix}
+prefix: "&#08ACFB&lᴀ&#17B2FB&lᴅ&#26B9FB&lᴠ&#35BFFC&lᴀ&#44C6FC&lɴ&#53CCFC&lᴄ&#62D3FC&lᴇ&#71D9FC&lᴅ&#80E0FC&lᴄ&#8FE6FD&lʜ&#9EEDFD&lᴀ&#ADF3FD&lᴛ
+  &8» "  # Prefix for all messages
+
+messages:
+
+  Join_Module:
+    # Message to broadcast when a player joins the server.
+    # %player% placeholder will be replaced with the name of the joining player.
+    join_message:
+      - "&8[&#33cc33+&8] &7%player% adlı oyuncu ile toplam %total-player% kişiyiz."
+    # Message to broadcast when a player quits the server.
+    # %player% placeholder will be replaced with the name of the quitting player.
+    quit_message:
+      - "&8[&#ff3333-&8] &7%player% adlı oyuncunun ayrılması ile toplam %total-player% kişiyiz."
+    # Message to broadcast when a player joins the server.
+    # %player% placeholder will be replaced with the name of the joining player.
+    join_actionbar_message:
+      - "&#33cc33Hoşgeldin, &7%player%&#33cc33! Seninle Beraber %total-player% kişi olduk."
+    # Message to broadcast when a player quits the server.
+    # %player% placeholder will be replaced with the name of the quitting player.
+    quit_actionbar_message:
+      - "&#ff3333Görüşmez üzere, &7%player%&#ff3333! Senin ayrılmanla beraber %total-player% kişi olduk."
+
+  Chat_Module:
+    # Message to broadcast when chat is disabled.
+    # %player% placeholder will be replaced with the name of the player who executed the command.
+    chat_disable_message:
+      - ""
+      - "{prefix}&c#ff3333Sohbet %player% adlı yetkili tarafından susturuldu!"
+      - ""
+
+    # Message to broadcast when chat is enabled.
+    # %player% placeholder will be replaced with the name of the player who executed the command.
+    chat_enable_message:
+      - ""
+      - "{prefix}&a#33cc33Sohbet %player% adlı yetkili tarafından açıldı!"
+      - ""
+
+    # Message to broadcast when chat is cleared.
+    # %player% placeholder will be replaced with the name of the player who executed the command.
+    chat_clear_message:
+      - ""
+      - "{prefix}&6#ffcc00Sohbet %player% adlı yetkili tarafından silindi!!"
+      - ""
+
+    # Message to broadcast when chat is disabled
+    chat_has_been_muted:
+      - ""
+      - "{prefix}&6#ffcc00Sohbet susturulmuş durumda konuşamazsın!"
+      - ""
+
+  AntiLongRepeatedChars:
+    warning-message: "{prefix}&c#ff333Lütfen tekrarlanan sözcükleri kullanmaktan kaçının!"
+
+  Spam-System:
+    cooldown_message: "{prefix}&c#ff3333Lütfen hızlı yazmayın biraz bekleyin!" # Cooldown message
+
+  Anti-Caps:
+    Warning-Message: '{prefix}&c#ff3333Hey {player}, büyük harf kullanmamaya dikkat et! Bu senin
+      (#{warn-number}) uyarın!' # The warning message format
+
+  Staff_Chat:
+    Disabled_Message: "{prefix}&#ff3333Staff Chat devre dışı bırakıldı!"  # Sohbet devre dışı olduğunda gösterilecek mesaj
+    Enabled_Message: "{prefix}&#33cc33Staff Chat etkinleştirildi."  # Sohbet etkinleştirildiğinde gösterilecek mesaj
+    Format: "&e[&bStaffChat&e] &a{player} &7» &b{message}"  # Sohbet mesajı formatı
+
+  Command_Spy:
+    Command_Spy_Enabled: "{prefix}&aCommandSPY aktifleştirildi!"
+    Command_Spy_Disabled: "{prefix}&cCommandSPY devre dışı bırakıldı!"
+    Command_Executed: "&8[&bCommandSPY&8] &7» &7[{player-name}] executed: &6{command} &7({full-command})"
+
+  Verify-Chat:
+    chat_message:
+      - "                                        "
+      - "                   &#33cc33&LSOHBET DOĞRULAMASI"
+      - "                                        "
+      - "                     &e&lSORU"
+      - "                       %quest%"
+      - "                                        "
+      - "            &eCevabını Sohbete Yaz!"
+      - "                                        "
+    # Messages
+    verified-message: "{prefix}&aBaşarıyla doğrulandınız!"
+    wrong-answer-message: "{prefix}&cYanlış cevap verdin. {cooldown} saniye içinde tekrar deneyin."
+    cooldown-message: "{prefix}&cBeklemeniz gerekiyor! {time} saniye kaldı."
+    # Title & Subtitle
+    verifychat-title: "&#33cc33&lSohbet Doğrulaması"
+    verifychat-subtitle: "&#33cc33%quest%"
+    # Verified
+    verified-title: "&#33cc33&lBAŞARILI"
+    verified-subtitle: "&#33cc33&lBaşarıyla Doğrulandın!"
+    # Wrong
+    wrong-title: "&#ff3333&lHATA!"
+    wrong-subtitle: "&#ff3333Cevabın Yanlış!"
+    # Sounds
+    correct-sound: ENTITY_PLAYER_LEVELUP # Sound for correct answer https://helpch.at/docs/1.16.5/org/bukkit/Sound.html
+    incorrect-sound: BLOCK_ANVIL_PLACE # Sound for incorrect answer https://helpch.at/docs/1.16.5/org/bukkit/Sound.html
+
+  reply_format:
+    # Format for the sender of the reply
+    sent: "&7#cccccc[&a#33cc33Sen → %recipient%&7#cccccc] &f#ffffff%message%"
+    # Format for ignore message
+    ignore-message: "{prefix}&cBu kişi seni engellemiş! Bu oyuncuya msg atamazsın!"
+    # Format for ignore message
+    sender-ignored: "{prefix}&cBu kişiyi engelledin! Bu oyuncuya msg atamazsın!"
+    #
+    recipient-disabled: "{prefix}&cBu oyuncunun mesaj alma özelliği devre dışı bırakılmış!"
+    # Message for msg disabled for player
+    msg-disabled: "{prefix}&cMesajlaşma sisteminiz kapalı!"
+    # Format for the recipient of the reply
+    received: "&7#cccccc[&a#33cc33%sender% → Sen&7#cccccc] &f#ffffff%message%"
+    # Notification sound when reply received
+    # Use a valid Minecraft sound name. Sounds List: https://helpch.at/docs/1.16.5/org/bukkit/Sound.html
+    sound: ENTITY_EXPERIENCE_ORB_PICKUP
+
+  msg_format:
+    # Format for the sender of the private message
+    sent: "&7#cccccc[&a#33cc33Sen → %recipient%&7#cccccc] &f#ffffff%message%"
+    # Format for ignore message
+    ignore-message: "{prefix}&cBu kişi seni engellemiş! Bu oyuncuya msg atamazsın!"
+    # Format for ignore message
+    sender-ignored: "{prefix}&cBu kişiyi engelledin! Bu oyuncuya msg atamazsın!"
+    # Format for the recipient of the private message
+    received: "&7#cccccc[&a#33cc33%sender% → Sen&7#cccccc] &f#ffffff%message%"
+    # Message for you cant self message to you
+    cant-self: "{prefix}&#ff3333Kendine msg atamazsın!"
+    #
+    recipient-disabled: "{prefix}&cBu oyuncunun mesaj alma özelliği devre dışı bırakılmış!"
+    # Message for msg disabled for player
+    msg-disabled: "{prefix}&cMesajlaşma sisteminiz kapalı!"
+    # Enable & Disable messages
+    enabled: "{prefix}&aMesajlaşma özelliği başarıyla etkinleştirildi!"
+    disabled: "{prefix}&cMesajlaşma özelliği devre dışı bırakıldı!"
+    # Notification sound when receiving a private message
+    # Use a valid Minecraft sound name. Sounds List: https://helpch.at/docs/1.16.5/org/bukkit/Sound.html
+    sound: ENTITY_EXPERIENCE_ORB_PICKUP
+
+  mention:
+    notification:
+      title: "&a#33cc33Etiketlendin!"
+      subtitle: "&7#cccccc%player% seni etiketledi!"
+    notification-sound: "ENTITY_EXPERIENCE_ORB_PICKUP"
+    notification-color: "&#3366cc"
+    symbol: "@"
+
+    # Basic command messages
+  player-not-found: "{prefix}&#FF0000Belirtilen Oyuncu Aktif Değil!"
+  ignore-success: "{prefix}&#00FF00Başarıyla {player} adlı oyuncuyu şu sebepten: {reason}. Engellenenler listesine eklediniz."
+  remove-success: "{prefix}&#00FF00Başarıyla {player} adlı oyuncuyu engellenenler listenizden sildiniz."
+  not-in-list: "{prefix}&#FF0000Bu kullanıcı senin engelliler listende yok!"
+
+  # Messages for the list command
+  no-ignored-players-have: "{prefix}&#808080Henüz engellediğin biri yok."
+  list-header: "{prefix}&#00FF00Engellediğin oyuncuların listesi:"
+  ignored-player: "&#BA4491► &#FC0C0C{player-name}"
+  ignore-list-hover: |
+    
+    &#BA4491► &#FFFF00Tıkla ve {player_name}'yi ignore listenden sil.
+
+  ignore-list-command:
+    - "ignore remove {player_name}"
+    - ""

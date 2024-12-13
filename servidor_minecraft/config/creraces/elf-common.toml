@@ -1,0 +1,21 @@
+
+[Elf]
+	#Allow the Elf? (True)
+	ElfAllow = true
+	#Elf A1 cooldown (280.0)
+	ElfA1 = 280.0
+	#Elf A2 cooldown (280.0)
+	ElfA2 = 280.0
+	#Elf A3 cooldown (400.0)
+	ElfA3 = 400.0
+	#Elf A4 cooldown (600.0)
+	ElfA4 = 600.0
+	#Elf Passive cooldown (0.0)
+	ElfPassive = 0.0
+	#Elf HP Modifier (0.0)
+	ElfHP = 0.0
+	#Elf Height Modifier (0.1)
+	ElfHeight = 0.1
+	#Elf Width Modifier (0.0)
+	ElfWidth = 0.0
+

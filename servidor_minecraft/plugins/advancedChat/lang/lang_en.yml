@@ -1,0 +1,165 @@
+# Prefix for {prefix}
+prefix: "&#08ACFB&lᴀ&#17B2FB&lᴅ&#26B9FB&lᴠ&#35BFFC&lᴀ&#44C6FC&lɴ&#53CCFC&lᴄ&#62D3FC&lᴇ&#71D9FC&lᴅ&#80E0FC&lᴄ&#8FE6FD&lʜ&#9EEDFD&lᴀ&#ADF3FD&lᴛ
+  &8» "  # Prefix for all messages
+
+messages:
+
+  Join_Module:
+    # Message to broadcast when a player joins the server.
+    # %player% placeholder will be replaced with the name of the joining player.
+    join_message:
+      - "&8[&#33cc33+&8] &7%player% Now we are %total-player% players."
+    # Message to broadcast when a player quits the server.
+    # %player% placeholder will be replaced with the name of the quitting player.
+    quit_message:
+      - "&8[&#ff3333-&8] &7%player% Now we are %total-player% players."
+    # Message to broadcast when a player joins the server.
+    # %player% placeholder will be replaced with the name of the joining player.
+    join_actionbar_message:
+      - "&#33cc33Welcome, &7%player%&#33cc33! %total-player% players online."
+    # Message to broadcast when a player quits the server.
+    # %player% placeholder will be replaced with the name of the quitting player.
+    quit_actionbar_message:
+      - "&#ff3333Goodbye, &7%player%&#ff3333! %total-player% players remaining."
+
+  Chat_Module:
+    # Message to broadcast when chat is disabled.
+    # %player% placeholder will be replaced with the name of the player who executed the command.
+    chat_disable_message:
+      - ""
+      - "{prefix}&c#ff3333Chat has been muted by %player%"
+      - ""
+
+    # Message to broadcast when chat is enabled.
+    # %player% placeholder will be replaced with the name of the player who executed the command.
+    chat_enable_message:
+      - ""
+      - "{prefix}&a#33cc33Chat has been unmuted by %player%"
+      - ""
+
+    # Message to broadcast when chat is cleared.
+    # %player% placeholder will be replaced with the name of the player who executed the command.
+    chat_clear_message:
+      - ""
+      - "{prefix}&6#ffcc00Chat has been cleared by %player%!"
+      - ""
+
+    # Message to broadcast when chat is disabled
+    chat_has_been_muted:
+      - ""
+      - "{prefix}&6#ffcc00Chat has been muted!"
+      - ""
+
+  AntiLongRepeatedChars:
+    warning-message: "{prefix}&c#ff3333Please avoid using long repeated
+    characters in words!"
+
+  Spam-System:
+    cooldown_message: "{prefix}&c#ff3333Please wait a moment before sending
+      another message." # Cooldown message
+
+  Anti-Caps:
+    Warning-Message: '{prefix}&c#ff3333Hey {player}, can you avoid capitalization? This is your
+      (#{warn-number}) warning!' # The warning message format
+
+  Staff_Chat:
+    Disabled_Message: "{prefix}&#ff3333Staff chat has been disabled!" # Message to show when chat is disabled
+    Enabled_Message: "{prefix}&#33cc33Staff Chat has been enabled." # Message to show when chat is enabled
+    Format: "&e[&bStaffChat&e] &a{player} &7» &b{message}" # Chat message format
+
+  Command_Spy:
+    Command_Spy_Enabled: "{prefix}&aCommandSPY has been enabled!"
+    Command_Spy_Disabled: "{prefix}&cCommandSPY has been disabled!"
+    Command_Executed: "&8[&bCommandSPY&8] &7» &7[{player-name}] executed: &6{command} &7({full-command})"
+
+  Verify-Chat:
+    chat_message:
+      - "                                        "
+      - "                   &#33cc33&LVERIFY CHAT"
+      - "                                        "
+      - "                     &e&lQUESTION"
+      - "                       %quest%"
+      - "                                        "
+      - "            &eWrite your answer into chat"
+      - "                                        "
+    # Messages
+    verified-message: "{prefix}&aYou have been succesfuly verified!"
+    wrong-answer-message: "{prefix}&cYou answered wrong. Try again in {cooldown} seconds."
+    cooldown-message: "{prefix}&cYou need to wait! {remaining} seconds left."
+    # Title & Subtitle
+    verifychat-title: "&#33cc33&lVERIFY CHAT"
+    verifychat-subtitle: "&#33cc33%quest%"
+    # Verified
+    verified-title: "&#33cc33&lSuccesfuly"
+    verified-subtitle: "&#33cc33&lYou Have Been Verified"
+    # Wrong
+    wrong-title: "&#ff3333&lWRONG!"
+    wrong-subtitle: "&#ff3333Your answer was wrong!"
+    # Sounds
+    correct-sound: ENTITY_PLAYER_LEVELUP # Sound for correct answer https://helpch.at/docs/1.16.5/org/bukkit/Sound.html
+    incorrect-sound: BLOCK_ANVIL_PLACE # Sound for incorrect answer https://helpch.at/docs/1.16.5/org/bukkit/Sound.html
+
+  reply_format:
+    # Format for the sender of the reply
+    sent: "&7#cccccc[&a#33cc33You → %recipient%&7#cccccc] &f#ffffff%message%"
+    # Format for ignore message
+    ignore-message: "{prefix}&cThis player is ignored you!"
+    # Format for ignore message
+    sender-ignored: "{prefix}&cThe target is ignored. You can't send message to player!"
+    # Message for msg disable command
+    recipient-disabled: "{prefix}&cThis player has disabled receiving messages!"
+    # Message for msg disabled for player
+    msg-disabled: "{prefix}&cYou have disabled the messaging system!"
+    # Format for the recipient of the reply
+    received: "&7#cccccc[&a#33cc33%sender% → You&7#cccccc] &f#ffffff%message%"
+    # Notification sound when reply received
+    # Use a valid Minecraft sound name. Sounds List: https://helpch.at/docs/1.16.5/org/bukkit/Sound.html
+    sound: ENTITY_EXPERIENCE_ORB_PICKUP
+
+  msg_format:
+    # Format for the sender of the private message
+    sent: "&7#cccccc[&a#33cc33You → %recipient%&7#cccccc] &f#ffffff%message%"
+    # Format for ignore message
+    ignore-message: "{prefix}&cThis player is ignored you!"
+    # Format for ignore message
+    sender-ignored: "{prefix}&cThe target is ignored. You can't send message to player!"
+    # Format for the recipient of the private message
+    received: "&7#cccccc[&a#33cc33%sender% → You&7#cccccc] &f#ffffff%message%"
+    # Message for you cant self message to you
+    cant-self: "{prefix}&#ff3333You cannot send a message to yourself!"
+    # Message for msg disable command
+    recipient-disabled: "{prefix}&cThis player has disabled receiving messages!"
+    # Message for msg disabled for player
+    msg-disabled: "{prefix}&cYou have disabled the messaging system!"
+    # Enable & Disable messages
+    enabled: "{prefix}&aMessaging feature successfully enabled!"
+    disabled: "{prefix}&cMessaging feature disabled!"
+    # Notification sound when receiving a private message
+    # Use a valid Minecraft sound name. Sounds List: https://helpch.at/docs/1.16.5/org/bukkit/Sound.html
+    sound: ENTITY_EXPERIENCE_ORB_PICKUP
+
+  mention:
+    notification:
+      title: "&a#33cc33You've been mentioned"
+      subtitle: "&7#cccccc%player% mentioned you"
+    notification-sound: "ENTITY_EXPERIENCE_ORB_PICKUP"
+    notification-color: "&#3366cc"
+    symbol: "@"
+
+  # Basic command messages
+  player-not-found: "{prefix}&#FF0000The specified player is not online."
+  ignore-success: "{prefix}&#00FF00You have successfully ignored {player} for the reason: {reason}."
+  remove-success: "{prefix}&#00FF00You have successfully removed {player} from your ignore list."
+  not-in-list: "{prefix}&#FF0000This player is not in your ignore list."
+
+  # Messages for the list command
+  no-ignored-players-have: "{prefix}&#808080You have no ignored players."
+  list-header: "{prefix}&#00FF00List of players you blocked:"
+  ignored-player: "&#BA4491► &#FC0C0C{player-name}"
+  ignore-list-hover: |
+
+    &#BA4491► &#FFFF00Click and delete {player_name} from your ignore list.
+
+  ignore-list-command:
+    - "ignore remove {player_name}"
+    - ""

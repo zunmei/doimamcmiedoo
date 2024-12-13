@@ -1,0 +1,21 @@
+
+[Giant]
+	#Allow the Giant? (True)
+	GiantAllow = true
+	#Giant A1 cooldown (1200.0)
+	GiantA1 = 1200.0
+	#Giant A2 cooldown (880.0)
+	GiantA2 = 880.0
+	#Giant A3 cooldown (0.0)
+	GiantA3 = 0.0
+	#Giant A4 cooldown (0.0)
+	GiantA4 = 0.0
+	#Giant Passive cooldown (0.0)
+	GiantPassive = 0.0
+	#Giant HP Modifier (12.0)
+	GiantHP = 12.0
+	#Giant Height Modifier (1.0)
+	GiantHeight = 1.0
+	#Giant Width Modifier (1.0)
+	GiantWidth = 1.0
+

@@ -1,0 +1,25 @@
+
+[Harpy]
+	#Allow the Harpy? (True)
+	HarpyAllow = true
+	#Harpy A1 cooldown (480.0)
+	HarpyA1 = 480.0
+	#Harpy A2 cooldown (500.0)
+	HarpyA2 = 500.0
+	#Harpy A3 cooldown (0.0)
+	HarpyA3 = 0.0
+	#Harpy A4 cooldown (0.0)
+	HarpyA4 = 0.0
+	#Harpy Passive cooldown (0.0)
+	HarpyPassive = 0.0
+	#Harpy HP Modifier (-4.0)
+	HarpyHP = -4.0
+	#Harpy Height Modifier (-0.08)
+	HarpyHeight = -0.08
+	#Harpy Width Modifier (-0.08)
+	HarpyWidth = -0.08
+	#Harpy Energy Drain (0.6)
+	HarpyDrain = 0.6
+	#Make the Harpy cancel flight once hit?
+	HarpyFall = true
+

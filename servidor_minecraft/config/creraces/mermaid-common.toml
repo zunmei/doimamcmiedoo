@@ -1,0 +1,24 @@
+
+[Mermaid]
+	#Allow the Mermaid? (True)
+	MermaidAllow = true
+	#Mermaid A1 cooldown (120.0)
+	MermaidA1 = 120.0
+	#Mermaid A2 cooldown (600.0)
+	MermaidA2 = 600.0
+	#Mermaid A3 cooldown (0.0)
+	MermaidA3 = 0.0
+	#Mermaid A4 cooldown (0.0)
+	MermaidA4 = 0.0
+	#Mermaid Passive cooldown (50.0)
+	MermaidPassive = 50.0
+	#Mermaid HP Modifier (0.0)
+	MermaidHP = 0.0
+	#Mermaid Height Modifier (0.0)
+	MermaidHeight = 0.0
+	#Mermaid Width Modifier (0.0)
+	MermaidWidth = 0.0
+
+["Mermaid 2"]
+	test543 = true
+

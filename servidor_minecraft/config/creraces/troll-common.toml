@@ -1,0 +1,21 @@
+
+[Troll]
+	#Allow the Troll? (True)
+	TrollAllow = true
+	#Troll A1 cooldown (400.0)
+	TrollA1 = 400.0
+	#Troll A2 cooldown (320.0)
+	TrollA2 = 320.0
+	#Troll A3 cooldown (0.0)
+	TrollA3 = 0.0
+	#Troll A4 cooldown (0.0)
+	TrollA4 = 0.0
+	#Troll Passive cooldown (240.0)
+	TrollPassive = 240.0
+	#Troll HP Modifier (4.0)
+	TrollHP = 4.0
+	#Troll Height Modifier (0.2)
+	TrollHeight = 0.2
+	#Troll Width Modifier (0.2)
+	TrollWidth = 0.2
+

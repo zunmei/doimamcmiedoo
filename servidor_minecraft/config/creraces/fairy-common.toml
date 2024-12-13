@@ -1,0 +1,120 @@
+
+["Light Fairy"]
+	#Allow the Light Fairy? (True)
+	LightFairyAllow = true
+	#Light Fairy A1 cooldown (360.0)
+	LightFairyA1 = 360.0
+	#Light Fairy A2 cooldown (720.0)
+	LightFairyA2 = 720.0
+	#Light Fairy A3 cooldown (0.0)
+	LightFairyA3 = 0.0
+	#Light Fairy A4 cooldown (0.0)
+	LightFairyA4 = 0.0
+	#Light Fairy Passive cooldown (0.0)
+	LightFairyPassive = 0.0
+	#Light Fairy HP Modifier (-10.0)
+	LightFairyHP = -10.0
+	#Light Fairy Height Modifier (-0.8)
+	LightFairyHeight = -0.8
+	LightFairyWidth = -0.8
+
+["Dark Fairy"]
+	#Allow the Dark Fairy? (True)
+	DarkFairyAllow = true
+	#Dark Fairy A1 cooldown (820.0)
+	DarkFairyA1 = 820.0
+	#Dark Fairy A2 cooldown (720.0)
+	DarkFairyA2 = 720.0
+	#Dark Fairy A3 cooldown (0.0)
+	DarkFairyA3 = 0.0
+	#Dark Fairy A4 cooldown (0.0)
+	DarkFairyA4 = 0.0
+	#Dark Fairy Passive cooldown (0.0)
+	DarkFairyPassive = 0.0
+	#Dark Fairy HP Modifier (-10.0)
+	DarkFairyHP = -10.0
+	#Dark Fairy Height Modifier (-0.8)
+	DarkFairyHeight = -0.8
+	#Dark Fairy Width Modifier (-0.8)
+	DarkFairyWidth = -0.8
+
+["Spring Fairy"]
+	#Allow the Spring Fairy? (True)
+	SpringFairyAllow = true
+	#Spring Fairy A1 cooldown (580.0)
+	SpringFairyA1 = 580.0
+	#Spring Fairy A2 cooldown (720.0)
+	SpringFairyA2 = 720.0
+	#Spring Fairy A3 cooldown (0.0)
+	SpringFairyA3 = 0.0
+	#Spring Fairy A4 cooldown (0.0)
+	SpringFairyA4 = 0.0
+	#Spring Fairy Passive cooldown (0.0)
+	SpringFairyPassive = 0.0
+	#Spring Fairy HP Modifier (-10.0)
+	SpringFairyHP = -10.0
+	#Spring Fairy Height Modifier (-0.8)
+	SpringFairyHeight = -0.8
+	#Spring Fairy Width Modifier (-0.8)
+	SpringFairyWidth = -0.8
+
+["Summer Fairy"]
+	#Allow the Summer Fairy? (True)
+	SummerFairyAllow = true
+	#Summer Fairy A1 cooldown (60.0)
+	SummerFairyA1 = 60.0
+	#Summer Fairy A2 cooldown (720.0)
+	SummerFairyA2 = 720.0
+	#Summer Fairy A3 cooldown (0.0)
+	SummerFairyA3 = 0.0
+	#Summer Fairy A4 cooldown (0.0)
+	SummerFairyA4 = 0.0
+	#Summer Fairy Passive cooldown (0.0)
+	SummerFairyPassive = 0.0
+	#Summer Fairy HP Modifier (-10.0)
+	SummerFairyHP = -10.0
+	#Summer Fairy Height Modifier (-0.8)
+	SummerFairyHeight = -0.8
+	#Summer Fairy Width Modifier (-0.8)
+	SummerFairyWidth = -0.8
+
+["Autumn Fairy"]
+	#Allow the Autumn Fairy? (True)
+	AutumnFairyAllow = true
+	#Autumn Fairy A1 cooldown (580.0)
+	AutumnFairyA1 = 580.0
+	#Autumn Fairy A2 cooldown (720.0)
+	AutumnFairyA2 = 720.0
+	#Autumn Fairy A3 cooldown (0.0)
+	AutumnFairyA3 = 0.0
+	#Autumn Fairy A4 cooldown (0.0)
+	AutumnFairyA4 = 0.0
+	#Autumn Fairy Passive cooldown (0.0)
+	AutumnFairyPassiive = 0.0
+	#Autumn Fairy HP Modifier (-10.0)
+	AutumnFairyHP = -10.0
+	#Autumn Fairy Height Modifier (-0.8)
+	AutumnFairyHeight = -0.8
+	#Autumn Fairy Width Modifier (-0.8)
+	AutumnFairyWidth = -0.8
+
+["Winter Fairy"]
+	#Allow the Winter Fairy? (True)
+	WinterFairyAllow = true
+	#Winter Fairy A1 cooldown (180.0)
+	WinterFairyA1 = 180.0
+	#Winter Fairy A2 cooldown (720.0)
+	WinterFairyA2 = 720.0
+	#Winter Fairy A3 cooldown (0.0)
+	WinterFairyA3 = 0.0
+	#Winter Fairy A4 cooldown (0.0)
+	WinterFairyA4 = 0.0
+	#Winter Fairy Passive cooldown (0.0)
+	WinterFairyPassive = 0.0
+	#Winter Fairy HP Modifier (-10.0)
+	WinterFairyHP = -10.0
+	#Winter Fairy Height Modifier (-0.8)
+	WinterFairyHeight = -0.8
+	#Winter Fairy Width Modifier (-0.8)
+	WinterFairyWidth = -0.8
+

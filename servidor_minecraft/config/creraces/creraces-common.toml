@@ -1,0 +1,39 @@
+
+[General]
+	#Enable Fairy & Pixie flight in rain? (True)
+	SagWings = true
+	#Enable Coin drops? (True)
+	CoinDrop = true
+	#Enable Race Overlays? (True)
+	RaceOverlays = true
+	#Enable CreRaces popups? (False)
+	Popups = false
+	#Force players to select a race? (False)
+	ForceSelect = false
+	#Enable Experimental mode? (False)
+	Experimental = false
+	#Enable Vampirism & Werewolves compatibility? (False)
+	Vampirism = false
+	#Enable Wings mod compatibility? (True)
+	Wings = true
+	#Enable the Secret Numpad? (True)
+	SecretNumpad = true
+	#Enable the censor bar for Christian Minecraft servers? (False)
+	SafeMode = false
+	#Allow selecting the Human? (True)
+	AllowHuman = true
+	#Ability Haste cap (40.0)
+	AHCap = 40.0
+	#Allow players to transfer Coins to eachother?
+	CoinTransfer = false
+	#Enable correctly tagged mobs to be friendly to some races? (True)
+	RaceFriendly = true
+	#Disable damage without a source? (False)
+	DamageBlocker = false
+	#Enable Cold Sweat compatibility? (False)
+	ColdSweat = false
+	#Enable Icarus mod compatibility? (True)
+	Icarus = true
+	#How the Runic Ritual react to a player using it. (0: Disabled / 1: Makes the player Human / 2: Resets the players race)
+	RitualMode = 1.0
+

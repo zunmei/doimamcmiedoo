@@ -1,0 +1,30 @@
+
+[Dragonborn]
+	#Allow the Dragonborn? (True)
+	DragonbornAllow = true
+	#Dragonborn A1 cooldown (180.0)
+	DragonbornA1 = 180.0
+	#Dragonborn A2 cooldown (0.0)
+	DragonbornA2 = 0.0
+	#Dragonborn A3 cooldown (0.0)
+	DragonbornA3 = 0.0
+	#Dragonborn A4 cooldown (0.0)
+	DragonbornA4 = 0.0
+	#Dragonborn Passive cooldown (0.0)
+	DragonbornPassive = 0.0
+	#Dragonborn HP Modifier (0.0)
+	DragonbornHP = 0.0
+	#Dragonborn Height Modifier (0.0)
+	DragonbornHeight = 0.0
+	#Dragonborn Width Modifier (0.0)
+	DragonbornWidth = 0.0
+
+["Dragonborn 2"]
+	test124 = true
+
+["Dragonborn 3"]
+	test324 = true
+
+["Dragonborn 4"]
+	test654 = true
+
